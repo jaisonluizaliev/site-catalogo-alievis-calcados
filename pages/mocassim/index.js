@@ -1,15 +1,7 @@
-const Mocassim = () => {
+export default function Mocassim() {
   return (
-    <div>
-      <>
-      <main>
-        
-      </main>
-    </>
-      
-    </div>
+    <main>
+
+    </main>
   )
 }
-
-export default Mocassim
-

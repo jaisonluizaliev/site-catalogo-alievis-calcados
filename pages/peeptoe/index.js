@@ -1,15 +1,7 @@
-const PeepToe = () => {
+export default function PeepToe() {
   return (
-    <div>
-      <>
-      
-      <main>
-        
-      </main>
-    </>
-      
-    </div>
+    <main>
+
+    </main>
   )
 }
-
-export default PeepToe;

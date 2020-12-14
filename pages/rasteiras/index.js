@@ -1,15 +1,7 @@
-const Rasteiras = () => {
+export default function Rasteiras() {
   return (
-    <div>
-      <>
-     
-      <main>
-        
-      </main>
-    </>
-      
-    </div>
+    <main>
+
+    </main>
   )
 }
-
-export default Rasteiras;

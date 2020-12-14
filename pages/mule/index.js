@@ -1,15 +1,7 @@
-const Mule = () => {
+export default function Mule() {
   return (
-    <div>
-      <>
-      
-      <main>
-        
-      </main>
-    </>
-      
-    </div>
+    <main>
+
+    </main>
   )
 }
-
-export default Mule;

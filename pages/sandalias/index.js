@@ -1,15 +1,7 @@
-const Sandalias = () => {
+export default function Sandalias() {
   return (
-    <div>
-      <>
-      
-      <main>
-        
-      </main>
-    </>
-      
-    </div>
+    <main>
+
+    </main>
   )
 }
-
-export default Sandalias;

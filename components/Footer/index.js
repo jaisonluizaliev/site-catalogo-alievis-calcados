@@ -1,32 +1,36 @@
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar, Nav, Row } from 'react-bootstrap'
 
 const Footer = () => {
   return (
     <footer>
-      <Navbar 
-        className="font"
+      <Navbar
+        className="font-1"
         collapseOnSelect
         expand="lg"
-        bg="transparent"
-        variant="light"
-        style={{height: '150px'}}
-        >
-        <Nav className="mx-auto" >
-          <Nav.Link href="#d">
-            Facebook
+        bg="secondary"
+        variant="dark"
+        style={{ height: '200px' }}
+      >
+        <Row xs={12} className="w-100 mx-auto">
+          <Nav className="col-12 col-lg-6 col-md-6 text-center">
+            <Row className="mx-auto">
+              <Nav.Link className="col-sm" href="#d">
+                Facebook
+                  </Nav.Link>
+              <Nav.Link className="col-sm" href="#">
+                Instagram
+                  </Nav.Link>
+              <Nav.Link className="col-sm" href="#">
+                WhatsApp
+                </Nav.Link>
+            </Row>
+          </Nav >
+          <Nav className="col-12 col-lg-6 col-md-6 text-center">
+            <Nav.Link className="mx-auto" >
+              Feito por Jaison Dev
             </Nav.Link>
-          <Nav.Link href="#">
-            Instagram
-            </Nav.Link>
-          <Nav.Link href="#">
-            WhatsApp
-            </Nav.Link>
-        </Nav >
-        <Nav className="mx-auto">
-          <Nav.Link>
-            Feito por Jaison Dev
-          </Nav.Link>
-        </Nav>
+          </Nav>
+        </Row>
 
       </Navbar>
     </footer>

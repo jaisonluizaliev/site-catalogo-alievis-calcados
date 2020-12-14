@@ -1,14 +1,7 @@
-const Scarpin = () => {
+export default function Scarpin() {
   return (
-    <div>
-      <>
-      <main>
-        
-      </main>
-    </>
-      
-    </div>
+    <main>
+
+    </main>
   )
 }
-
-export default Scarpin;
