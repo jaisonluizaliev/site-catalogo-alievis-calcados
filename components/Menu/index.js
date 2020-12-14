@@ -7,8 +7,6 @@ import {
 
 
 
-
-
 const Menu = () => {
   return (
     <>
@@ -40,19 +38,9 @@ const Menu = () => {
             </NavDropdown>
           </Nav>
           <Nav className="mr-auto">
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/sobre">Sobre</Nav.Link>
             <Nav.Link href="/contato">Contato</Nav.Link>
-          </Nav>
-          <Nav>
-            <Nav.Link href="#d">
-             
-            </Nav.Link>
-            <Nav.Link href="#">
-             
-            </Nav.Link>
-            <Nav.Link eventKey={2} href="#">
-              
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
