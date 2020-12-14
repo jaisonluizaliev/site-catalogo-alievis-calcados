@@ -28,19 +28,19 @@ const Menu = () => {
               title="Calçados"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item href="/mocassim">Mocassim</NavDropdown.Item>
-              <NavDropdown.Item href="/mule">Mule</NavDropdown.Item>
-              <NavDropdown.Item href="/peeptoe">PeepToe</NavDropdown.Item>
+              <NavDropdown.Item href="/mocassim">Mocassins</NavDropdown.Item>
+              <NavDropdown.Item href="/peeptoe">PeepToes</NavDropdown.Item>
               <NavDropdown.Item href="/rasteiras">Rasteiras</NavDropdown.Item>
               <NavDropdown.Item href="/sandalias">Sandálias</NavDropdown.Item>
               <NavDropdown.Item href="/sapatilhas">Sapatilhas</NavDropdown.Item>
-              <NavDropdown.Item href="/scarpin">Scarpin</NavDropdown.Item>
+              <NavDropdown.Item href="/scarpin">Scarpins</NavDropdown.Item>
+              <NavDropdown.Item href="/tamanco">Tamancos</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/sobre">Sobre</Nav.Link>
-            <Nav.Link href="/contato">Contato</Nav.Link>
+            <Nav.Link className="text-darker" href="/">Home</Nav.Link>
+            <Nav.Link className="text-darker" href="/sobre">Sobre</Nav.Link>
+            <Nav.Link className="text-darker" href="/contato">Contato</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

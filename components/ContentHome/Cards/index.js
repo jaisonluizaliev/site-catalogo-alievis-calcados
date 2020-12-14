@@ -1,20 +1,24 @@
-import {Card} from 'react-bootstrap'
+import { Row, Card, Button } from 'react-bootstrap'
 
 
 export default function Cards(props) {
   return (
     <>
-     <Card className="mt-2 mb-2">
-      <div className="w-50 mx-auto">
-        <Card.Img src={props.image} alt={props.alt}/>
-      </div>
-      <Card.Title className="text-center h5">
-        {props.titulo}
-      </Card.Title>
-      <Card.Body>
-        <p className="lead">{props.texto}</p>
-      </Card.Body>
-     </Card>
+      <Card className="mt-2 mb-2">
+        <div className="w-100 mx-auto pb-3">
+          <Card.Img src={props.image} alt={props.alt} />
+        </div>
+        <Card.Title className="text-center h5 font-weight-normal font-1">
+          {props.titulo}
+        </Card.Title>
+        <Card.Link>
+         <Row>
+            <Button className="mt-3 w-75 mx-auto p-3 p-lg-2 link-btn-home " href={props.href}>
+              Mais Detalhes
+            </Button>
+          </Row>
+        </Card.Link>
+      </Card>
     </>
   )
 }

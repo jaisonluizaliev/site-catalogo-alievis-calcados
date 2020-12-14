@@ -1,4 +1,4 @@
-export default function Mule() {
+export default function Tamanco() {
   return (
     <main>
 

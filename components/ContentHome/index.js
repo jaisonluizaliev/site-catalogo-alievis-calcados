@@ -2,39 +2,58 @@ import {Row, Col} from 'react-bootstrap'
 import Cards from './Cards'
 
 const ContentHome = () => {
+
+  
+
   return (
     <>
       <Row lg={4} xs={1} md={2}>
         <Col>
           <Cards
-            image="/logo.png"
-            titulo="Ola"
-            alt="imagem calçado"
-            texto="Um lindo e confortável calçado!"
-            />
-        </Col>
-        <Col>
-          <Cards
-            image="/logo.png"
-            titulo="Ola"
-            alt="imagem calçado"
-            texto="Um lindo e confortável calçado!"
+            image="/tamanco-home.jpg"
+            titulo="Tamancos"
+            alt="tamanco"
+            href="/tamanco"
           />
         </Col>
         <Col>
           <Cards
-            image="/logo.png"
-            titulo="Ola"
-            alt="imagem calçado"
-            texto="Um lindo e confortável calçado!"
+            image="/scarpin-home.jpg"
+            titulo="Scarpins"
+            alt="scarpin"
+            href="/scarpin"
           />
         </Col>
         <Col>
           <Cards
-            image="/logo.png"
-            titulo="Ola"
-            alt="imagem calçado"
-            texto="Um lindo e confortável calçado!"
+            image="/sandalia-home.jpg"
+            titulo="Sandálias"
+            alt="sandalias"
+            href="/sandalias"
+          />
+        </Col>
+        <Col>
+          <Cards
+            image="/rasteira-home.jpg"
+            titulo="Rasteiras"
+            alt="rasteiras"
+            href="/rasteiras"
+          />
+        </Col>
+        <Col>
+          <Cards
+            image="/peeptoe-home.jpg"
+            titulo="PeepToes"
+            alt="peep-toe"
+            href="/peeptoe"
+          />
+        </Col>
+        <Col>
+          <Cards
+            image="/sapatilhas-home.jpg"
+            titulo="Sapatilhas"
+            alt="sapatilhas"
+            href="/sapatilhas"
           />
         </Col>
       </Row>
