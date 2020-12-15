@@ -4,7 +4,7 @@ import Cards from './Cards'
 const ContentHome = () => {
   return (
     <>
-      <Row lg={4} xs={1} md={2}>
+      <Row lg={3} xs={1} md={2}>
         <Col>
           <Cards
             image="/tamanco-home.jpg"

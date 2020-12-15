@@ -5,7 +5,7 @@ export default function Cards(props) {
   return (
     <>
       <Card className="mt-2 mb-2">
-        <div className="w-100 mx-auto pb-3">
+        <div className="w-75 mx-auto pb-3">
           <Card.Img src={props.image} alt={props.alt} />
         </div>
         <Card.Title className="text-center h5 font-weight-normal font-1">

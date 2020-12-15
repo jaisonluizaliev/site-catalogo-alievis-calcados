@@ -28,13 +28,13 @@ const Menu = () => {
               title="Calçados"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item href="/mocassim">Mocassins</NavDropdown.Item>
-              <NavDropdown.Item href="/peeptoe">PeepToes</NavDropdown.Item>
-              <NavDropdown.Item href="/rasteiras">Rasteiras</NavDropdown.Item>
-              <NavDropdown.Item href="/sandalias">Sandálias</NavDropdown.Item>
-              <NavDropdown.Item href="/sapatilhas">Sapatilhas</NavDropdown.Item>
-              <NavDropdown.Item href="/scarpin">Scarpins</NavDropdown.Item>
-              <NavDropdown.Item href="/tamanco">Tamancos</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2" href="/mocassim">Mocassins</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2" href="/peeptoe">PeepToes</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2" href="/rasteiras">Rasteiras</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2" href="/sandalias">Sandálias</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2" href="/sapatilhas">Sapatilhas</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2" href="/scarpin">Scarpins</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2" href="/tamanco">Tamancos</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav className="mr-auto">
