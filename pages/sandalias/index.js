@@ -31,7 +31,7 @@ export default function Sandalias() {
           <CardWithWab
             src="/sandalia-marrombege-pagina.jpg"
             alt="sandalia-marrom-com-bege"
-            titulo="Sandália Marron C/ Bege"
+            titulo="Sandália Marron C/ Cordas"
             tamanho="36, 38 e 39"
             material="Verniz e Napa"
             descrição="Sandalia Confort, linha Premium"

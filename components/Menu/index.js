@@ -28,13 +28,13 @@ const Menu = () => {
               title="Calçados"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item className="p-3 p-lg-2" href="/mocassim">Mocassins</NavDropdown.Item>
-              <NavDropdown.Item className="p-3 p-lg-2" href="/peeptoe">PeepToes</NavDropdown.Item>
-              <NavDropdown.Item className="p-3 p-lg-2" href="/rasteiras">Rasteiras</NavDropdown.Item>
-              <NavDropdown.Item className="p-3 p-lg-2" href="/sandalias">Sandálias</NavDropdown.Item>
-              <NavDropdown.Item className="p-3 p-lg-2" href="/sapatilhas">Sapatilhas</NavDropdown.Item>
-              <NavDropdown.Item className="p-3 p-lg-2" href="/scarpin">Scarpins</NavDropdown.Item>
-              <NavDropdown.Item className="p-3 p-lg-2" href="/tamanco">Tamancos</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2 text-center" href="/mocassim">Mocassins</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2 text-center" href="/peeptoe">PeepToes</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2 text-center" href="/rasteiras">Rasteiras</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2 text-center" href="/sandalias">Sandálias</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2 text-center" href="/sapatilhas">Sapatilhas</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2 text-center" href="/scarpin">Scarpins</NavDropdown.Item>
+              <NavDropdown.Item className="p-3 p-lg-2 text-center" href="/tamanco">Tamancos</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav className="mr-auto">

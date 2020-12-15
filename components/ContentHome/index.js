@@ -53,6 +53,14 @@ const ContentHome = () => {
             href="/sapatilhas"
           />
         </Col>
+        <Col>
+          <Cards
+            image="/mocassim-home.jpg"
+            titulo="Mocassins"
+            alt="mocassim"
+            href="/mocassim"
+          />
+        </Col>
       </Row>
     </>
   )
