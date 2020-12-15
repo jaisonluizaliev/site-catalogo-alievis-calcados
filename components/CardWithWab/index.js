@@ -1,6 +1,6 @@
 import { Button, Row, Card } from 'react-bootstrap'
 
-const linkWhats = "https://api.whatsapp.com/send?phone=5548988467451&text=Olá%20você%20tem%20este%20calçado %20disponível%20no%20número%20"
+//const linkWhats = "https://api.whatsapp.com/send?phone=5548988467451&text=Olá%20você%20tem%20este%20calçado %20disponível%20no%20número%20"
 
 export default function CardWithWab(props) {
   return (
@@ -15,8 +15,10 @@ export default function CardWithWab(props) {
         <Card.Body>
           <p className="lead p-0 m-0 font-2">{props.texto}</p>
           <Row>
-            <Button className="mt-3 w-75 mx-auto link-wp p-3 p-lg-2" variant="success" target="blank" href={linkWhats}>
-              Compre Pelo WhatsApp
+            <Button className="mt-3 w-75 mx-auto link-wp p-3 p-lg-2" variant="success" >
+              <a target="blank" href={props.link}>
+                Compre Pelo WhatsApp
+              </a>
             </Button>
           </Row>
         </Card.Body>

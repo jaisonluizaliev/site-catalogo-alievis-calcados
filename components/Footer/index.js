@@ -7,8 +7,8 @@ const Footer = () => {
         className="font"
         collapseOnSelect
         expand="lg"
-        bg="secondary"
-        variant="dark"
+        bg="transparent"
+        variant="light"
         style={{ height: '200px' }}
       >
         <Row xs={12} className="w-100 mx-auto">
