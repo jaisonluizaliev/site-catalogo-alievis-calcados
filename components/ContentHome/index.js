@@ -7,14 +7,6 @@ const ContentHome = () => {
       <Row lg={3} xs={1} md={2}>
         <Col>
           <Cards
-            image="/tamanco-home.jpg"
-            titulo="Tamancos"
-            alt="tamanco"
-            href="/tamanco"
-          />
-        </Col>
-        <Col>
-          <Cards
             image="/scarpin-home.jpg"
             titulo="Scarpins"
             alt="scarpin"
@@ -27,6 +19,14 @@ const ContentHome = () => {
             titulo="Sandálias"
             alt="sandalias"
             href="/sandalias"
+          />
+        </Col>
+        <Col>
+          <Cards
+            image="/tamanco-home.jpg"
+            titulo="Tamancos"
+            alt="tamanco"
+            href="/tamanco"
           />
         </Col>
         <Col>
@@ -55,12 +55,13 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            image="/mocassim-home.jpg"
+            image="/mocassim-marrom-pagina.jpg"
             titulo="Mocassins"
             alt="mocassim"
             href="/mocassim"
           />
         </Col>
+        
       </Row>
     </>
   )
