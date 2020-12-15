@@ -1,5 +1,5 @@
-import { Row, Col } from 'react-bootstrap'
-import CardWithWab from '../../components/CardWithWab'
+import {Row, Col} from 'react-bootstrap'
+import CardWithWab from '../../components/CardWithWab/index'
 
 export default function Mocassim() {
   return (
@@ -7,13 +7,12 @@ export default function Mocassim() {
       <Row lg={4} xs={1} md={2}>
         <Col>
           <CardWithWab
-            imgwb="/logo.png"
-            titulo="Ola"
-            alt="imagem calçado"
-            texto="Um lindo e confortável calçado!"
-            
+            src="/tamanco-home.jpg"
+            alt="tamanco"
+            titulo="Sapato"
+            texto="Sapato descrição"
           />
-        </Col>
+        </Col>  
       </Row>
     </>
   )

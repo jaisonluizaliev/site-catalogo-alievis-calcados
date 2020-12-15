@@ -2,9 +2,6 @@ import {Row, Col} from 'react-bootstrap'
 import Cards from './Cards'
 
 const ContentHome = () => {
-
-  
-
   return (
     <>
       <Row lg={4} xs={1} md={2}>
