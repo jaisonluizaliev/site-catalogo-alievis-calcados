@@ -13,9 +13,14 @@ export default function CardWithWab(props) {
           {props.titulo}
         </Card.Title>
         <Card.Body>
-          <p className="lead p-0 m-0 font-2">{props.texto}</p>
+          <div className="lead p-0 m-0 font-2">
+            <p><strong>Tamanho: </strong>{props.tamanho}</p>
+            <p><strong>Material: </strong>{props.material}</p>
+            <strong>Descrição: </strong><p>{props.descrição}</p>
+            <p>Mais Fotos no WhatsApp.</p>
+          </div>
           <Row>
-            <Button className="mt-3 w-75 mx-auto link-wp p-3 p-lg-2" variant="success" >
+            <Button className="mt-3 w-75 mx-auto btn-wp p-3 p-lg-2" variant="success" >
               <a target="blank" href={props.link}>
                 Compre Pelo WhatsApp
               </a>

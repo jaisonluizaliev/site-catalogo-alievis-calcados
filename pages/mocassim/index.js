@@ -7,13 +7,7 @@ export default function Mocassim() {
       
       <Row lg={4} xs={1} md={2}>
         <Col>
-          <CardWithWab
-            src="/tamanco-home.jpg"
-            alt="tamanco"
-            titulo="Sapato"
-            texto="Sapato descrição"
-            link=""
-          />
+          
         </Col>  
       </Row>
     </>

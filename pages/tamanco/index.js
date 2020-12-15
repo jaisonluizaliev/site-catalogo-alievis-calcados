@@ -7,13 +7,13 @@ export default function Tamanco() {
       <Row lg={4} xs={1} md={2}>
         <Col>
           <CardWithWab
-            
             src="/tamanco-home.jpg"
             alt="tamanco"
-            titulo="Lindo Tamanco Salto 4CM"
-            texto="Calçado Em Verniz e fdjjfhdj fbdj fjdf udf jdb fjhdbfj bdj fbdj fbdjbf jdbf jdbj fbdjf bdjbf jdbf jdbf jdbfj dbfjdb fjdbf jbdfj bd jbdj fbdj fbdj bdjb fjdbf "
+            titulo="Lindo Tamanco Black/Rose"
+            tamanho="38 e 39 "
+            material="Verniz"
+            descrição="Tamanco Confort Premium, Salto 4cm"
             link="https://bit.ly/34eLuMU"
-          
           />
         </Col>
       </Row>

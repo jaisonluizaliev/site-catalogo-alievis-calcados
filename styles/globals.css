@@ -6,7 +6,7 @@
 
 a, a:hover {
   text-decoration: none;
-  color:#fff;
+  color:#000;
 }
 
 /*font-family: 'Open Sans', sans-serif - 300 - 400 - 700 ;
@@ -19,32 +19,24 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   font-family: 'Playfair Display', serif;
 }
 
-
-
 .font-1 {
-  font-size: 1.1rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 500;
   font-family: 'Open Sans', sans-serif
 }
 
 .font-2 {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   font-family: 'Open Sans', sans-serif
 }
 
-.font-1:hover {
-  color: #000;
-}
-
-.link-wp {
+.btn-wp {
   background-color: #00E676;
-  color: white;
 }
 
-.link-wp:hover {
+.btn-wp:hover {
   background-color: #16d177;
-  color: white;
 }
 
 .link-btn-home {

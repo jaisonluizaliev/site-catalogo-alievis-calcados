@@ -7,27 +7,27 @@ const Footer = () => {
         className="font"
         collapseOnSelect
         expand="lg"
-        bg="transparent"
-        variant="light"
+        bg="dark"
+        variant="dark"
         style={{ height: '200px' }}
       >
         <Row xs={12} className="w-100 mx-auto">
           <Nav className="col-12 col-lg-6 col-md-6 text-center">
             <Row className="mx-auto">
-              <Nav.Link className="col-sm" href="#d">
-                Facebook
+              <Nav.Link className="col-sm" target="blank" href="https://www.facebook.com/calcadosalievis">
+                Curta Nossa Página no Facebook
+              </Nav.Link>
+              <Nav.Link className="col-sm" target="blank" href="https://www.instagram.com/alieviscalcadosfemininos/">
+                Siga-nos no Instagram
                   </Nav.Link>
-              <Nav.Link className="col-sm" href="#">
-                Instagram
-                  </Nav.Link>
-              <Nav.Link className="col-sm" href="#">
-                WhatsApp
-                </Nav.Link>
+              <Nav.Link className="col-sm" target="blank" href="https://bit.ly/3oNXVaa">
+                Nos Chame no WhatsApp
+              </Nav.Link>
             </Row>
           </Nav >
           <Nav className="col-12 col-lg-6 col-md-6 text-center">
             <Nav.Link className="mx-auto" >
-              Feito por Jaison Dev
+              By Jaison Dev
             </Nav.Link>
           </Nav>
         </Row>
