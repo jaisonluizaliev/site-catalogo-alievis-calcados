@@ -13,7 +13,7 @@ export default function Cards(props) {
         </Card.Title>
         <Card.Link>
          <Row>
-            <Button className="mt-3 w-75 mx-auto p-3 p-lg-2 link-btn-home " href={props.href}>
+            <Button className="mt-3 w-75 mx-auto mb-3 p-3 p-lg-2 link-btn-home " href={props.href}>
               Mais Detalhes
             </Button>
           </Row>

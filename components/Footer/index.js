@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <Navbar
-        className="font-1"
+        className="font"
         collapseOnSelect
         expand="lg"
         bg="secondary"

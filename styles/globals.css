@@ -4,13 +4,17 @@
   margin: 0;
 }
 
-.text-darker {
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+ Nav.text-darker {
   color:#000;
 }
 
 .font {
-  font-size: 1.3rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: 'Playfair Display', serif;
 }
 
 
@@ -18,6 +22,7 @@
 .font-1 {
   font-size: 1.1rem;
   font-weight: 400;
+  font-family: 'Open Sans', sans-serif
 }
 
 .font-1:hover {
