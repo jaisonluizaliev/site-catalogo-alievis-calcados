@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <footer>
       <Navbar
-        className="font"
+        className="font footer-adjust-mob"
         collapseOnSelect
         expand="lg"
         bg="dark"
         variant="dark"
-        style={{ height: '200px' }}
+        style={{height: '250px'}}
       >
         <Row xs={12} className="w-100 mx-auto">
           <Nav className="col-12 col-lg-6 col-md-6 text-center">
