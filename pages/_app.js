@@ -25,6 +25,13 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name='description' content="Calçados Alievi's" />
+        <meta name="generator" content="Nextjs,react" />
+        <meta name="application-name" content="Site Alievi Calçados" />
+        <meta name="msapplication-TileColor" content="#da532c"/>
+        <meta name="theme-color" content="#ffffff"/>
         <title>Alievi's Calçados</title>
       </Head>
       <Container fluid>
