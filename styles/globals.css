@@ -49,14 +49,28 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   color:white;
 }
 
+.carousel-vh-mob {
+    width: 95vw;
+    height: 80vh;
+    margin-bottom: 1.8rem;
+    margin-top:1.3rem;
+  }
+
 @media only screen and (min-width: 768px) { 
   .p-lg-2 {
     padding: 10px;
   }
+  .carousel-vh {
+    width: 85vh;
+    height: 85vh;
+    margin-top:0;
+  }
+  
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767) { 
   .footer-adjust-mob {
     height: '300px'
   }
+  
 }

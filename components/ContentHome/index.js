@@ -7,7 +7,7 @@ const ContentHome = () => {
       <Row lg={3} xs={1} md={2}>
         <Col>
           <Cards
-            image="/scarpin-home.jpg"
+            image="/scarpin-vermelho-pagina.jpg"
             titulo="Scarpins"
             alt="scarpin"
             href="/scarpin"
@@ -39,7 +39,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            image="/peeptoe-home.jpg"
+            image="/peeptoe-preto-pagina.jpg"
             titulo="PeepToes"
             alt="peep-toe"
             href="/peeptoe"
