@@ -50,10 +50,10 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 }
 
 .carousel-vh-mob {
-    width: 95vw;
-    height: 80vh;
-    margin-bottom: 1.8rem;
-    margin-top:1.3rem;
+    width: 90vw;
+    height: 70vh;
+    margin-bottom: 80px;
+    
   }
 
 @media only screen and (min-width: 768px) { 
