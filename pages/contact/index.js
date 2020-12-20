@@ -1,7 +1,7 @@
 import { Row, Col } from 'react-bootstrap'
 export default function Contact() {
   return (
-    <main style={{height:'50vh'}}>
+    <main style={{height:'70vh'}}>
       <Row lg={3} xs={1} md={2}>
         <Col>
           <Row>
