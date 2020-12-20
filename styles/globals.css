@@ -1,38 +1,38 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
-  color:#000;
+  color: #000;
 }
 
 /*font-family: 'Open Sans', sans-serif - 300 - 400 - 700 ;
 font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 
-
 .font {
   font-size: 1.3rem;
   font-weight: 800;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .font-1 {
   font-size: 1.2rem;
   font-weight: 500;
-  font-family: 'Open Sans', sans-serif
+  font-family: "Open Sans", sans-serif;
 }
 
 .font-2 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif
+  font-family: "Open Sans", sans-serif;
 }
 
 .btn-wp {
-  background-color: #00E676;
+  background-color: #00e676;
 }
 
 .btn-wp:hover {
@@ -40,45 +40,63 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 }
 
 .link-btn-home {
-  background-color: #FC0318;
-  color:white;
+  background-color: #fc0318;
+  color: white;
 }
 
 .link-btn-home:hover {
   background-color: #da1b2b;
-  color:white;
+  color: white;
 }
 
 .carousel-vh-mob {
-    width:50vh;
-    height: 70vh;
-    margin-bottom: 100px;
-    
-  }
+  width: 50vh;
+  height: 70vh;
+  margin-bottom: 100px;
+}
 
-  .footer-adjust-mob {
-    height: '300px'
-  }
+.footer-adjust-mob {
+  height: "300px";
+}
 
-  /*For Tablets*/
-@media only screen and (min-width:600px) and (max-width: 1024px) {
+/*For Tablets*/
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
   .carousel-t {
     width: 50vw;
     height: 50vh;
-    margin-top:0;
+    margin-top: 0;
+  }
+  .font-1-md {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
   }
 
+  .font-2-md {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+  }
 }
-  /*for Laptops and large Devices*/
-@media only screen and (min-width: 1025px) { 
+/*for Laptops and large Devices*/
+@media only screen and (min-width: 1025px) {
   .p-lg-2 {
     padding: 10px;
   }
   .carousel-vh {
     width: 85vh;
     height: 85vh;
-    margin-top:0;
+    margin-top: 0;
   }
-  
-}
+  .font-1-lg {
+    font-size: 19px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+  }
 
+  .font-2-lg {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+  }
+}

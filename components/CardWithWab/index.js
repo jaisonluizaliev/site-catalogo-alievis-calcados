@@ -9,11 +9,11 @@ export default function CardWithWab(props) {
         <div className="w-100 mx-auto pb-3">
           <Card.Img src={props.src} alt={props.alt} />
         </div>
-        <Card.Title className="text-center h5 font-weight-normal font-1">
+        <Card.Title className="text-center h5 font-weight-normal font-1 font-1-md font-1-lg">
           {props.titulo}
         </Card.Title>
         <Card.Body>
-          <div className="lead p-0 m-0 font-2">
+          <div className="lead p-0 m-0 font-2 font-2-md font-2-lg">
             <p><strong>Tamanho: </strong>{props.tamanho}</p>
             <p><strong>Material: </strong>{props.material}</p>
             <strong>Descrição: </strong><p>{props.descrição}</p>

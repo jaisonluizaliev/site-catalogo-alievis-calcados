@@ -1,6 +1,6 @@
 import {Carousel} from 'react-bootstrap'
 
-export default function Caroulsel() {
+export default function CarouselComp() {
   return (
     <>
       <Carousel>

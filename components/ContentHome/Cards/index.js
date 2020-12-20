@@ -8,7 +8,7 @@ export default function Cards(props) {
         <div className="w-75 mx-auto pb-3">
           <Card.Img src={props.image} alt={props.alt} />
         </div>
-        <Card.Title className="text-center h5 font-weight-normal font-1">
+        <Card.Title className="text-center h5 font-weight-normal font-1 font-1-md font-1-lg">
           {props.titulo}
         </Card.Title>
         <Card.Link>
