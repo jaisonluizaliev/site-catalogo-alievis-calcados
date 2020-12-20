@@ -21,7 +21,7 @@ const Footer = () => {
                 Siga-nos no Instagram
                   </Nav.Link>
               <Nav.Link className="col-sm" target="blank" href="https://bit.ly/3oNXVaa">
-                Nos Chame no WhatsApp
+                Nosso WhatsApp
               </Nav.Link>
             </Row>
           </Nav >

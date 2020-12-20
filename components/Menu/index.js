@@ -39,8 +39,8 @@ const Menu = () => {
           </Nav>
           <Nav className="mr-auto">
             <Nav.Link className="text-darker" href="/">Home</Nav.Link>
-            <Nav.Link className="text-darker" href="/sobre">Sobre</Nav.Link>
-            <Nav.Link className="text-darker" href="/contato">Contato</Nav.Link>
+            <Nav.Link className="text-darker" href="/como-funciona">Duvidas</Nav.Link>
+            <Nav.Link className="text-darker" href="/contact">Contato</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

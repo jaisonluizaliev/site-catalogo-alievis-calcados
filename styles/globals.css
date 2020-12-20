@@ -50,13 +50,27 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 }
 
 .carousel-vh-mob {
-    width: 90vw;
+    width:50vh;
     height: 70vh;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     
   }
 
-@media only screen and (min-width: 768px) { 
+  .footer-adjust-mob {
+    height: '300px'
+  }
+
+  /*For Tablets*/
+@media only screen and (min-width:600px) and (max-width: 1024px) {
+  .carousel-t {
+    width: 50vw;
+    height: 50vh;
+    margin-top:0;
+  }
+
+}
+  /*for Laptops and large Devices*/
+@media only screen and (min-width: 1025px) { 
   .p-lg-2 {
     padding: 10px;
   }
@@ -68,9 +82,3 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   
 }
 
-@media only screen and (min-width: 0px) and (max-width: 767) { 
-  .footer-adjust-mob {
-    height: '300px'
-  }
-  
-}
