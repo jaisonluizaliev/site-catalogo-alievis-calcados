@@ -31,7 +31,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            image="/rasteira-home.jpg"
+            image="/rasteira-tyedielilas-pagina.jpg"
             titulo="Rasteiras"
             alt="rasteiras"
             href="/rasteiras"
@@ -55,7 +55,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            image="/mocassim-marrom-pagina.jpg"
+            image="/mocassim-azul-pagina.jpg"
             titulo="Mocassins"
             alt="mocassim"
             href="/mocassim"
