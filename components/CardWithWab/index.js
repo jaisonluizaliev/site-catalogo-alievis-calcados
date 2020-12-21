@@ -6,7 +6,7 @@ export default function CardWithWab(props) {
   return (
     <>
       <Card className="mt-2 mb-2">
-        <div className="w-100 mx-auto pb-3" style={{maxHeight: '290px'}}>
+        <div className="w-100 mx-auto pb-3" style={{ maxHeight: '290px' }} >
           <Card.Img src={props.src} alt={props.alt} />
         </div>
         <Card.Title className="text-center h5 font-weight-normal font-1 font-1-md font-1-lg">

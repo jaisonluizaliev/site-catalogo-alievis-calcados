@@ -45,9 +45,9 @@ export default function CarouselComp() {
         <Carousel.Item interval={2000}>
           <a href="/sandalias">
             <img
-              style={{maxHeight: '79vh'}}
+            style={{paddingTop: '100px'}}
               className="d-block mx-auto carousel-vh-mob carousel-t"
-              src="/sandalia-bloco-pagina.jpeg"
+              src="/sandalia-bloco-home.jpeg"
               alt="sandalia em bloco"
             />
           </a>

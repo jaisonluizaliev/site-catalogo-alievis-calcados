@@ -18,7 +18,7 @@ export default function Sandalias() {
         </Col>
         <Col>
           <CardWithWab
-            src="/sandalia-bloco-pagina.jpeg"
+            src="/sandalia-bloco-home.jpeg"
             alt="sandalia-branca"
             titulo="Sandália em Bloco Nude"
             tamanho="37"
