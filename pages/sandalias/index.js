@@ -18,6 +18,17 @@ export default function Sandalias() {
         </Col>
         <Col>
           <CardWithWab
+            src="/sandalia-bloco-pagina.jpeg"
+            alt="sandalia-branca"
+            titulo="Sandália em Bloco Nude"
+            tamanho="37"
+            material="Verniz"
+            descrição="Sandalia Confort, linha Premium"
+            link="https://bit.ly/38qavpG"
+          />
+        </Col>
+        <Col>
+          <CardWithWab
             src="/sandalia-nuderose-pagina.jpg"
             alt="sandalia-nude-rose"
             titulo="Sandália Nude C/ Rose"
