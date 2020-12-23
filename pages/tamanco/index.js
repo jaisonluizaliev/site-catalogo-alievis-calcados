@@ -9,11 +9,11 @@ export default function Tamanco() {
           <CardWithWab
             src="/tamanco-home.jpg"
             alt="tamanco"
-            titulo="Lindo Tamanco Black/Rose"
-            tamanho="38 e 39 "
+            titulo="ESGOTADO Somente Sob Encomenda"
+            tamanho="0"
             material="Verniz"
             descrição="Tamanco Confort Premium, Salto 4cm"
-            link="https://bit.ly/34eLuMU"
+            link="https://bit.ly/38ybGTN"
           />
         </Col>
       </Row>

@@ -20,7 +20,7 @@ export default function CardWithWab(props) {
             <p>Mais Fotos no WhatsApp.</p>
           </div>
           <Row>
-            <Button className="mt-3 w-75 mx-auto btn-wp p-3 p-lg-2" variant="success" >
+            <Button className="mt-3 w-75 mx-auto btn-wp p-3 p-lg-2" variant="success"  >
               <a target="blank" href={props.link}>
                 Compre Pelo WhatsApp
               </a>

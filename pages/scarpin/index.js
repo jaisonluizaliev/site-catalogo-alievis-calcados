@@ -54,7 +54,7 @@ export default function Scarpin() {
             src="/scarpin-nude-pagina.jpg"
             alt="scarpin-nude-salto-fino"
             titulo="Scarpin Nude Salto Fino"
-            tamanho="34, 35, 37 e 39"
+            tamanho="35, 37 e 39"
             material="Verniz"
             descrição="Salto linha Premium Confort, 8cm"
             link="https://bit.ly/34x20In"
@@ -64,11 +64,11 @@ export default function Scarpin() {
           <CardWithWab
             src="/scarpin-nude-grosso-pagina.jpg"
             alt="scarpin-nude-salto-grosso"
-            titulo="Scarpin Nude Salto Grosso"
-            tamanho="36 e 37"
+            titulo="ESGOTADO somente sob encomenda"
+            tamanho="0"
             material="Verniz"
             descrição="Salto linha Premium Confort, 8cm"
-            link="https://bit.ly/3mlFpVc"
+            link="https://bit.ly/38ybGTN"
           />
         </Col>
         <Col>
