@@ -40,7 +40,18 @@ const Menu = () => {
           <Nav className="mr-auto">
             <Nav.Link className="text-darker" href="/">Home</Nav.Link>
             <Nav.Link className="text-darker" href="/como-funciona">Duvidas</Nav.Link>
-            <Nav.Link className="text-darker" href="/contact">Contato</Nav.Link>
+          </Nav>
+          <Nav>
+            
+            <Nav.Link href="https://bit.ly/3aCP1bD" target="blank">
+              <img src='/icons/instagram-icon.png' />
+            </Nav.Link>
+            <Nav.Link href="http://bit.ly/34Bawpy" target="blank">
+              <img src='/icons/facebook-icon.png' />
+            </Nav.Link>
+            <Nav.Link href="https://bit.ly/3mHN5RD" target="blank">
+              <img src='/icons/whatsapp-icon.png' />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

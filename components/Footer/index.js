@@ -1,37 +1,45 @@
-import { Navbar, Nav, Row } from 'react-bootstrap'
+import { Navbar, Nav, Row, Image, Col } from 'react-bootstrap'
 
 const Footer = () => {
   return (
     <footer>
       <Navbar
-        className="font footer-adjust-mob"
-        collapseOnSelect
-        expand="lg"
         bg="dark"
         variant="dark"
-        style={{height: '250px'}}
       >
-        <Row xs={12} className="w-100 mx-auto">
-          <Nav className="col-12 col-lg-6 col-md-6 text-center">
-            <Row className="mx-auto">
-              <Nav.Link className="col-sm" target="blank" href="https://www.facebook.com/calcadosalievis">
-                Curta Nossa Página no Facebook
+        <Row xs={1} md={2} lg={4} className="w-100 font-2">
+          <Col >
+            <Nav className="w-100 d-flex justify-content-center ">
+              <Nav.Link target="blank" href="http://bit.ly/34Bawpy">
+                <Image src="/icons/facebook-footer-icon.png" /> Curta Nossa Página
               </Nav.Link>
-              <Nav.Link className="col-sm" target="blank" href="https://www.instagram.com/alieviscalcadosfemininos/">
-                Siga-nos no Instagram
-                  </Nav.Link>
-              <Nav.Link className="col-sm" target="blank" href="https://bit.ly/3oNXVaa">
-                Nosso WhatsApp
+            </Nav>
+          </Col>
+          <Col>
+            <Nav className="w-100 d-flex justify-content-center ">
+              <Nav.Link target="blank" href="https://bit.ly/3aCP1bD">
+                <Image src="/icons/instagram-footer-icon.png" /> Siga Nos
               </Nav.Link>
-            </Row>
-          </Nav >
-          <Nav className="col-12 col-lg-6 col-md-6 text-center">
-            <Nav.Link className="mx-auto" >
-              By Jaison Dev
-            </Nav.Link>
-          </Nav>
+            </Nav>
+          </Col>
+          <Col>
+            <Nav className="w-100 d-flex justify-content-center ">
+              <Nav.Link target="blank" href="https://bit.ly/3oNXVaa">
+                <Image src="/icons/whatsapp-footer-icon.png" /> WhatsApp
+              </Nav.Link>
+            </Nav>
+          </Col>
+          <Col>
+            <Nav className="w-100 d-flex justify-content-center ">
+              <Nav.Link href="#" className="" >
+                By Jaison Dev
+              </Nav.Link>
+            </Nav>
+          </Col>
+          
+          
+          
         </Row>
-
       </Navbar>
     </footer>
   )
