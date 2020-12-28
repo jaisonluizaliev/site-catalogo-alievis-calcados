@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel'
-import Image from 'next/image'
+import Image from './Image'
 
 const CarouselComp = () => {
   return (
@@ -8,8 +8,7 @@ const CarouselComp = () => {
         
         <Carousel.Item interval={2000}>
           <a href="/scarpin">
-            <img
-              className="d-block mx-auto carousel-vh carousel-vh-mob carousel-t"
+            <Image
               src="/scarpin-home.jpg"
               alt="scarpin"
             />
@@ -18,8 +17,7 @@ const CarouselComp = () => {
         
         <Carousel.Item interval={2000}>
           <a href="/sandalias">
-            <img
-              className="d-block mx-auto carousel-vh carousel-vh-mob carousel-t"
+            <Image
               src="/sandalia-offwhitecobra-pagina.jpg"
               alt="sandalia-offwhitecobra-pagina"
             />
@@ -27,8 +25,7 @@ const CarouselComp = () => {
         </Carousel.Item>
         <Carousel.Item interval={2000}>
           <a href="/tamanco">
-            <img
-              className="d-block mx-auto carousel-vh carousel-vh-mob carousel-t"
+            <Image
               src="/tamanco-home.jpg"
               alt="tamanco"
             />
@@ -36,8 +33,7 @@ const CarouselComp = () => {
         </Carousel.Item>
         <Carousel.Item interval={2000}>
           <a href="/peeptoe">
-            <img
-              className="d-block mx-auto carousel-vh carousel-vh-mob carousel-t"
+            <Image
               src="/peeptoe-home.jpg"
               alt="peeptoe"
             />
@@ -46,7 +42,7 @@ const CarouselComp = () => {
         <Carousel.Item interval={2000}>
           <a href="/sandalias">
             <img
-              className="d-block mx-auto carousel-vh carousel-vh-mob carousel-t hvh"
+              className="d-block mx-auto carousel-vh carousel-vh-mob carousel-t hvh" 
               src="/sandalia-bloco-home.jpeg"
               alt="sandalia em bloco"
             />
