@@ -1,8 +1,10 @@
 import { useState } from 'react'
-import { Collapse, Nav } from 'react-bootstrap'
+import Collapse from 'react-bootstrap/Collapse'
+import Nav from 'react-bootstrap/Nav'
 
 
-export default function Questions(props) {
+
+const Questions = (props) => {
   const [open, setOpen] = useState(false)
 
   return (
@@ -26,3 +28,5 @@ export default function Questions(props) {
     </section>
   )
 }
+
+export default Questions;

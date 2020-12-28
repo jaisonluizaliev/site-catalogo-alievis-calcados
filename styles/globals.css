@@ -42,6 +42,17 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 .link-btn-home {
   background-color: #fc0318;
   color: white;
+  font-size: 20px;
+
+  width: 90%;
+  height: 90px;
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
 }
 
 .link-btn-home:hover {
@@ -50,9 +61,10 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 }
 
 .carousel-vh-mob {
-  width: 50vh;
-  height: 70vh;
-  margin-bottom: 100px;
+  width: 90vw;
+  height: 60vh;
+  margin-top: 0;
+  margin-bottom: 5rem;
 }
 
 .footer-adjust-mob {
@@ -62,9 +74,10 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 /*For Tablets*/
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   .carousel-t {
-    width: 50vw;
-    height: 50vh;
+    width: 60vw;
+    height: 60vh;
     margin-top: 0;
+    margin-bottom: 5rem;
   }
   .font-1-md {
     font-size: 20px;
@@ -77,6 +90,12 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
   }
+  .link-btn-t {
+    font-size: 16px;
+    width: 70%;
+    height: 70px;
+    border-radius: 15px;
+  }
 }
 /*for Laptops and large Devices*/
 @media only screen and (min-width: 1025px) {
@@ -88,6 +107,9 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
     height: 85vh;
     margin-top: 0;
   }
+  .hvh {
+    height:80vh;
+  }
   .font-1-lg {
     font-size: 19px;
     font-weight: 500;
@@ -98,5 +120,11 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
     font-size: 17px;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
+  }
+  .link-btn-l {
+    font-size: 17px;
+    width: 60%;
+    height: 60px;
+    border-radius: 10px;
   }
 }

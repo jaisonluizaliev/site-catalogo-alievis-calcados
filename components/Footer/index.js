@@ -1,4 +1,9 @@
-import { Navbar, Nav, Row, Image, Col } from 'react-bootstrap'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import Row from 'react-bootstrap/Row'
+import Image from 'next/image'
+import Col from 'react-bootstrap/Col'
+
 
 const Footer = () => {
   return (
@@ -12,7 +17,7 @@ const Footer = () => {
           <Col >
             <Nav className="w-100 d-flex justify-content-center align-items-baseline">
               <Nav.Link target="blank" href="http://bit.ly/34Bawpy">
-                <Image src="/icons/facebook-footer-icon.png" />
+                <Image src="/icons/facebook-footer-icon.png" alt="icone facebook" width={32} height={32} />
               </Nav.Link>
               <p className="text-white">Curta Nossa Página</p>
             </Nav>
@@ -20,7 +25,7 @@ const Footer = () => {
           <Col>
             <Nav className="w-100 d-flex justify-content-center align-items-baseline ">
               <Nav.Link target="blank" href="https://bit.ly/3aCP1bD">
-                <Image src="/icons/instagram-footer-icon.png" /> 
+                <Image src="/icons/instagram-footer-icon.png" alt="icone instagram" width={32} height={32} /> 
               </Nav.Link>
               <p className="text-white">Siga-nos</p>
             </Nav>
@@ -28,7 +33,7 @@ const Footer = () => {
           <Col>
             <Nav className="w-100 d-flex justify-content-center align-items-baseline ">
               <Nav.Link target="blank" href="https://bit.ly/3oNXVaa">
-                <Image src="/icons/whatsapp-footer-icon.png" /> 
+                <Image src="/icons/whatsapp-footer-icon.png" alt="icone whatsapp" width={32} height={32} /> 
               </Nav.Link>
               <p className="text-white">WhatsApp</p>
             </Nav>

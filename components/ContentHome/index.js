@@ -1,4 +1,5 @@
-import {Row, Col} from 'react-bootstrap'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import Cards from './Cards'
 
 const ContentHome = () => {
@@ -7,7 +8,7 @@ const ContentHome = () => {
       <Row lg={3} xs={1} md={2}>
         <Col>
           <Cards
-            image="/scarpin-vermelho-pagina.jpg"
+            src="/scarpin-vermelho-pagina.jpg"
             titulo="Scarpins"
             alt="scarpin"
             href="/scarpin"
@@ -15,7 +16,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            image="/sandalia-home.jpg"
+            src="/sandalia-home.jpg"
             titulo="Sandálias"
             alt="sandalias"
             href="/sandalias"
@@ -23,7 +24,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            image="/tamanco-home.jpg"
+            src="/tamanco-home.jpg"
             titulo="Tamancos"
             alt="tamanco"
             href="/tamanco"
@@ -31,7 +32,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            image="/rasteira-tyedielilas-pagina.jpg"
+            src="/rasteira-tyedielilas-pagina.jpg"
             titulo="Rasteiras"
             alt="rasteiras"
             href="/rasteiras"
@@ -39,7 +40,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            image="/peeptoe-preto-pagina.jpg"
+            src="/peeptoe-preto-pagina.jpg"
             titulo="PeepToes"
             alt="peep-toe"
             href="/peeptoe"
@@ -47,7 +48,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            image="/sapatilhas-home.jpg"
+            src="/sapatilhas-home.jpg"
             titulo="Sapatilhas"
             alt="sapatilhas"
             href="/sapatilhas"
@@ -55,7 +56,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            image="/mocassim-azul-pagina.jpg"
+            src="/mocassim-azul-pagina.jpg"
             titulo="Mocassins"
             alt="mocassim"
             href="/mocassim"

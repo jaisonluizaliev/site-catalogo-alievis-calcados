@@ -1,6 +1,7 @@
-import {Carousel} from 'react-bootstrap'
+import Carousel from 'react-bootstrap/Carousel'
+import Image from 'next/image'
 
-export default function CarouselComp() {
+const CarouselComp = () => {
   return (
     <>
       <Carousel>
@@ -45,8 +46,7 @@ export default function CarouselComp() {
         <Carousel.Item interval={2000}>
           <a href="/sandalias">
             <img
-            style={{paddingTop: '100px'}}
-              className="d-block mx-auto carousel-vh-mob carousel-t"
+              className="d-block mx-auto carousel-vh carousel-vh-mob carousel-t hvh"
               src="/sandalia-bloco-home.jpeg"
               alt="sandalia em bloco"
             />
@@ -57,5 +57,7 @@ export default function CarouselComp() {
     </>
   )
 }
+
+export default CarouselComp;
 
 

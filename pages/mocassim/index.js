@@ -1,7 +1,8 @@
-import {Row, Col} from 'react-bootstrap'
-import CardWithWab from '../../components/CardWithWab/index'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import CardWithWab from '../../components/CardWithWab'
 
-export default function Mocassim() {
+const Mocassim = () => {
   return (
     <>
       
@@ -44,4 +45,4 @@ export default function Mocassim() {
   )
 }
 
-
+export default Mocassim;

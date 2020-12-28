@@ -1,13 +1,22 @@
-import { Button, Row, Card } from 'react-bootstrap'
+import Row from 'react-bootstrap/Row'
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
+import Image from 'next/image';
+
 
 //const linkWhats = "https://api.whatsapp.com/send?phone=5548988467451&text=Olá%20você%20tem%20este%20calçado %20disponível%20no%20número%20"
 
-export default function CardWithWab(props) {
+const CardWithWab = (props) => {
   return (
     <>
       <Card className="mt-2 mb-2">
         <div className="w-100 mx-auto pb-3">
-          <Card.Img src={props.src} alt={props.alt} />
+          <Image
+            src={props.src}
+            alt={props.alt}
+            width={500}
+            height={500}
+          />
         </div>
         <Card.Title className="text-center h5 font-weight-normal font-1 font-1-md font-1-lg">
           {props.titulo}
@@ -32,3 +41,5 @@ export default function CardWithWab(props) {
     </>
   )
 }
+
+export default CardWithWab;

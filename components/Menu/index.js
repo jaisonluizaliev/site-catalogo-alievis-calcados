@@ -1,11 +1,7 @@
 import Image from 'next/image';
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-} from 'react-bootstrap';
-
-
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Menu = () => {
   return (
@@ -44,13 +40,13 @@ const Menu = () => {
           <Nav>
             
             <Nav.Link href="https://bit.ly/3aCP1bD" target="blank">
-              <img src='/icons/instagram-icon.png' />
+              <Image src='/icons/instagram-icon.png' alt="icone instagram" width={32} height={32} />
             </Nav.Link>
             <Nav.Link href="http://bit.ly/34Bawpy" target="blank">
-              <img src='/icons/facebook-icon.png' />
+              <Image src='/icons/facebook-icon.png' alt="icone facebook" width={32} height={32} />
             </Nav.Link>
             <Nav.Link href="https://bit.ly/3mHN5RD" target="blank">
-              <img src='/icons/whatsapp-icon.png' />
+              <Image src='/icons/whatsapp-icon.png' alt="icone whatsapp" width={32} height={32} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

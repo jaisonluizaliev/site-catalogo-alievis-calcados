@@ -1,8 +1,8 @@
-
-import { Row, Col} from 'react-bootstrap'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import Questions from '../../components/Duvidas'
 
-export default function HowToWork() {
+const HowToWork = () => {
   return (
     <main >
       <Row className="d-block mb-5">
@@ -59,4 +59,5 @@ export default function HowToWork() {
   )
 }
 
+export default HowToWork;
 

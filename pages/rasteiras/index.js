@@ -1,7 +1,8 @@
-import { Row, Col } from 'react-bootstrap'
-import CardWithWab from '../../components/CardWithWab/index'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import CardWithWab from '../../components/CardWithWab'
 
-export default function Rasteiras() {
+const Rasteiras = () => {
   return (
     <main>
       <Row lg={4} xs={1} md={2}>
@@ -23,3 +24,5 @@ export default function Rasteiras() {
     </main>
   )
 }
+
+export default Rasteiras;

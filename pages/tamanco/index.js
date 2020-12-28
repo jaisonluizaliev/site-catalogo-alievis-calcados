@@ -1,7 +1,8 @@
-import { Row, Col } from 'react-bootstrap'
-import CardWithWab from '../../components/CardWithWab/index'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import CardWithWab from '../../components/CardWithWab'
 
-export default function Tamanco() {
+const Tamanco = () => {
   return (
     <main>
       <Row lg={4} xs={1} md={2}>
@@ -20,3 +21,5 @@ export default function Tamanco() {
     </main>
   )
 }
+
+export default Tamanco;
