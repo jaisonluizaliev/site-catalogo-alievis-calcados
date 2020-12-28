@@ -19,11 +19,11 @@ const Cards = (props) => {
         <Card.Title className="text-center h5 font-weight-normal font-1 font-1-md font-1-lg">
           {props.titulo}
         </Card.Title>
-        <Card.Link className="d-flex justify-content-center align-items-center">
+        <div className="d-flex justify-content-center align-items-center">
           <Button className="link-btn-home link-btn-t link-btn-l" href={props.href}>
               Mais Detalhes
           </Button>
-        </Card.Link>
+        </div>
       </Card>
     </>
   )
