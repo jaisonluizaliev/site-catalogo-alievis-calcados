@@ -42,7 +42,7 @@ const CarouselComp = () => {
         <Carousel.Item interval={2000}>
           <a href="/sandalias">
             <img
-              className="d-block mx-auto carousel-vh carousel-vh-mob carousel-t hvh" 
+              className="slide-home hvh" 
               src="/sandalia-bloco-home.jpeg"
               alt="sandalia em bloco"
             />

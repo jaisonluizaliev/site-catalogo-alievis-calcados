@@ -1,6 +1,6 @@
 
 const Image = (props) => {
-  return <img className="d-block mx-auto carousel-vh carousel-vh-mob carousel-t" 
+  return <img className="slide-home" 
   src={props.src} 
   alt={props.alt}
   width={600}

@@ -18,23 +18,21 @@ const CardWithWab = (props) => {
             height={500}
           />
         </div>
-        <Card.Title className="text-center h5 font-weight-normal font-1 font-1-md font-1-lg">
+        <Card.Title className="text-center h5 font-weight-normal font-1">
           {props.titulo}
         </Card.Title>
         <Card.Body>
-          <div className="lead p-0 m-0 font-2 font-2-md font-2-lg">
+          <div className="lead p-0 m-0 font-2">
             <p><strong>Tamanho: </strong>{props.tamanho}</p>
             <p><strong>Material: </strong>{props.material}</p>
             <strong>Descrição: </strong><p>{props.descrição}</p>
             <p>Mais Fotos no WhatsApp.</p>
           </div>
-          <Row>
-            <Button className="mt-3 w-75 mx-auto btn-wp p-3 p-lg-2" variant="success"  >
-              <a target="blank" href={props.link}>
-                Compre Pelo WhatsApp
-              </a>
+          <div className="display-flex">
+            <Button className="btn-wp" target="blank" href={props.link}>
+              Compre Pelo WhatsApp
             </Button>
-          </Row>
+          </div>
         </Card.Body>
       </Card>
 

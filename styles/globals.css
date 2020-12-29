@@ -7,7 +7,7 @@
 a,
 a:hover {
   text-decoration: none;
-  color: #000;
+  color: inherit ;
 }
 
 /*font-family: 'Open Sans', sans-serif - 300 - 400 - 700 ;
@@ -31,8 +31,27 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   font-family: "Open Sans", sans-serif;
 }
 
+.display-flex { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn-wp {
   background-color: #00e676;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 90%;
+  height: 80px;
+  margin-bottom: 1.5rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 15px;
+  
 }
 
 .btn-wp:hover {
@@ -43,16 +62,16 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   background-color: #fc0318;
   color: white;
   font-size: 20px;
-
+  margin-top: 10px;
   width: 90%;
-  height: 90px;
+  height: 80px;
   margin-bottom: 1.5rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
 
-  border-radius: 10px;
 }
 
 .link-btn-home:hover {
@@ -60,71 +79,91 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   color: white;
 }
 
-.carousel-vh-mob {
+.slide-home {
+  display: block;
+  margin: auto;
   width: 90vw;
   height: 60vh;
   margin-top: 0;
   margin-bottom: 5rem;
 }
 
-.footer-adjust-mob {
-  height: "300px";
+.padding-menu-dropdown {
+  padding: 12px;
+  text-align: center;
+  font-size: 19px;
 }
-
 /*For Tablets*/
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
-  .carousel-t {
+  .btn-wp {
+    font-size: 16px;
+    width: 70%;
+    height: 70px;
+  }
+  
+  .slide-home {
     width: 60vw;
     height: 60vh;
     margin-top: 0;
     margin-bottom: 5rem;
   }
-  .font-1-md {
+  .font-1 {
     font-size: 20px;
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
   }
 
-  .font-2-md {
+  .font-2 {
     font-size: 16px;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
   }
-  .link-btn-t {
+  .link-btn-home {
     font-size: 16px;
     width: 70%;
     height: 70px;
-    border-radius: 15px;
+  }
+  .padding-menu-dropdown {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
   }
 }
 /*for Laptops and large Devices*/
 @media only screen and (min-width: 1025px) {
-  .p-lg-2 {
-    padding: 10px;
+  .btn-wp {
+    font-size: 17px;
+    width: 80%;
+    height: 60px;
   }
-  .carousel-vh {
+  .slide-home {
     width: 85vh;
     height: 85vh;
     margin-top: 0;
   }
   .hvh {
-    height:80vh;
+    height: 80vh;
   }
-  .font-1-lg {
+  .font-1 {
     font-size: 19px;
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
   }
 
-  .font-2-lg {
+  .font-2{
     font-size: 17px;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
   }
-  .link-btn-l {
+  .link-btn-home {
     font-size: 17px;
     width: 60%;
     height: 60px;
-    border-radius: 10px;
+  }
+
+  .padding-menu-dropdown {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
   }
 }

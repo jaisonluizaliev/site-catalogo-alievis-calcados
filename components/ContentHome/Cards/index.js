@@ -1,4 +1,3 @@
-import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
 import Button  from 'react-bootstrap/Button'
 import Image from 'next/image';
@@ -16,11 +15,11 @@ const Cards = (props) => {
             height={500}
           />
         </div>
-        <Card.Title className="text-center h5 font-weight-normal font-1 font-1-md font-1-lg">
+        <Card.Title className="text-center h5 font-weight-normal font-1">
           {props.titulo}
         </Card.Title>
-        <div className="d-flex justify-content-center align-items-center">
-          <Button className="link-btn-home link-btn-t link-btn-l" href={props.href}>
+        <div className="display-flex">
+          <Button className="link-btn-home" href={props.href}>
               Mais Detalhes
           </Button>
         </div>
