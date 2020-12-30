@@ -8,11 +8,9 @@ const Menu = () => {
   return (
     <>
       <Navbar
-        className="font"
+        className="font menu"
         collapseOnSelect
         expand="lg"
-        bg="trasnsparent"
-        variant="light"
       >
         <Navbar.Brand href="/">
           <Image src="/logo.png" alt="logo" width={133} height={70} />

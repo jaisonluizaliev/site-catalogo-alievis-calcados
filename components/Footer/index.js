@@ -11,7 +11,6 @@ const Footer = () => {
       <Navbar
         bg="dark"
         variant="dark"
-        style={{ height: '35vh' }}
       >
         <Row xs={1} md={2} lg={4} className="w-100 font-2">
           <Col >

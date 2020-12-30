@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/globals.css'
-import Menu from '../components/Menu/index';
 import Container from 'react-bootstrap/Container'
+import Menu from '../components/Menu/index';
 import Footer from '../components/Footer/index'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
@@ -38,15 +38,16 @@ function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <main>
-        <Container fluid>
+      <Container fluid>
+        <main >
           <header>
             <Menu />
           </header>
           <Component {...pageProps} />
-          <Footer />
-        </Container>
-      </main>
+        </main>
+        <Footer />
+      </Container>
+      
     </>
   );
 }

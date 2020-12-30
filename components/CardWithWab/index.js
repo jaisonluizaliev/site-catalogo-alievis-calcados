@@ -1,4 +1,3 @@
-import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import Image from 'next/image';
