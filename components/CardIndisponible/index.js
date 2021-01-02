@@ -13,6 +13,7 @@ const CardIndisponible = (props) => {
           />
         </div>
         <div>
+          <h6 className="text-center">Indisponível</h6>
           <div className="shoesize">
             <div className="shoesize-child-inative">34</div>
             <div className="shoesize-child-inative">35</div>
