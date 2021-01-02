@@ -38,7 +38,7 @@ const CardIndisponible = (props) => {
                 width={32}
                 height={32}
               />
-              Encomendas No Whatsapp
+              Encomende Aqui
             </a>
           </div>
         </Card.Body>
