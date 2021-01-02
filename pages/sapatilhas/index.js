@@ -10,8 +10,10 @@ const Sapatilhas = () => {
           <CardWithWab
             src="/sapatilhas-home.jpg"
             alt="sapatilha nude"
+            price="59,90"
             titulo="Sapatilha Croco Nude"
-            tamanho="36 e 37"
+            setSize36="ative"
+            setSize37="ative"
             material="Napa"
             descrição="Sapatilha linha Confort, salto 1cm"
             link="https://bit.ly/3h8xDgd"
@@ -21,8 +23,11 @@ const Sapatilhas = () => {
           <CardWithWab
             src="/sapatilha-gelo-fend.jpg"
             alt="sapatilha Gelo Fend"
+            price="59,90"
             titulo="Sapatilha Fend Gelo"
-            tamanho="36, 37 e 38"
+            setSize36="ative"
+            setSize37="ative"
+            setSize38="ative"
             material="Napa"
             descrição="Sapatilha linha Confort, salto 1cm"
             link="https://bit.ly/2KP8VFO"
@@ -32,6 +37,7 @@ const Sapatilhas = () => {
           <CardWithWab
             src="/sapatilha-napa-chocolate.jpg"
             alt="sapatilha chocolate"
+            price="59,90"
             titulo="Sapatilha Croco Chocolate"
             tamanho="38"
             material="Napa"

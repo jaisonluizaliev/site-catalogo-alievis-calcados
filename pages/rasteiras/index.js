@@ -11,8 +11,9 @@ const Rasteiras = () => {
           <CardWithWab
             src="/rasteira-tyedielilas-pagina.jpg"
             alt="tye-dye-lilas"
+            price="64,90"
             titulo="Rasteira Tye Dye Lilas C/ Strass"
-            tamanho="37"
+            setSize37="ative"
             material="Couro Sintético"
             descrição="Linha Confort"
             link="https://bit.ly/3r1NqCc"

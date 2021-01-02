@@ -31,7 +31,7 @@ const Menu = () => {
                 item="Peep Toes"
               />
               <NavDropItem
-                href="/rasteira"
+                href="/rasteiras"
                 item="Rasteirinhas"
               />
               <NavDropItem

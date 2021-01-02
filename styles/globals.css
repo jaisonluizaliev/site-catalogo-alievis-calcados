@@ -29,6 +29,45 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   flex-flow: column;
   align-items: center;
 }
+.span-card {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #06af2a;
+}
+
+.price {
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.shoesize {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 1.5rem;
+  background-color: #fafafa;
+}
+
+.shoesize-child-inative {
+  width: 37px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #ffffff;
+
+  background-color: #fc0318;
+  margin: 0;
+}
+
+#ative {
+  color: #ffffff;
+  background-color: #06af2a;
+}
 
 .padding-ads {
   padding-bottom: 15px;
@@ -68,7 +107,7 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   margin-bottom: 1.5rem;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 
   border-radius: 15px;
@@ -125,7 +164,7 @@ footer nav {
 
   .btn-wp {
     font-size: 16px;
-    width: 70%;
+    width: 90%;
     height: 70px;
   }
 
@@ -180,7 +219,7 @@ footer nav {
   }
   .btn-wp {
     font-size: 17px;
-    width: 80%;
+    width: 100%;
     height: 60px;
   }
   .slide-home {

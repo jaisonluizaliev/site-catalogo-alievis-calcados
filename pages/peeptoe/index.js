@@ -10,8 +10,9 @@ const PeepToe = () => {
           <CardWithWab
             src="/peeptoe-vermelho-pagina.jpg"
             alt="tamanco"
+            price="79,90"
             titulo="Peep Toe Vermelho"
-            tamanho="36"
+            setSize36="ative"
             material="Verniz"
             descrição="Lindo peeptoe, salto 4cm, linha confort premium"
             link="https://bit.ly/386r75B"
@@ -23,8 +24,10 @@ const PeepToe = () => {
           <CardWithWab
             src="/peeptoe-preto-pagina.jpg"
             alt="tamanco"
+            price="79,90"
             titulo="Peep Toe Preto"
-            tamanho="34 e 38"
+            setSize34="ative"
+            setSize38="ative"
             material="Verniz"
             descrição="Lindo peeptoe, salto 4cm, linha confort premium"
             link="https://bit.ly/2K6eZJT"
