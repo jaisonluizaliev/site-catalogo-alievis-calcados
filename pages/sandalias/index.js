@@ -19,7 +19,7 @@ const Sandalias = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/sandalia-bloco-home.jpeg"
+            src="/sandalia-bloco-home.jpg"
             alt="sandalia-branca"
             titulo="Sandália em Bloco Nude"
             tamanho="37"
