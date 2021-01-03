@@ -13,7 +13,6 @@ header .menu {
   background-color: #fafafa;
 }
 
-
 /*font-family: 'Open Sans', sans-serif - 300 - 400 - 700 ;
 font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 
@@ -112,8 +111,32 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 
   border-radius: 15px;
 }
-footer nav {
-  height: 270px;
+
+footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #646363;
+}
+
+.footer-item {
+  display: flex;
+  justify-content: center;
+  color: #fafafa;
+}
+
+.icons-adjust-footer {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.footer-link {
+  color: #fafafa;
+  font-size: 18px;
+}
+
+.footer-link:hover {
+  color: #807e7e;
 }
 
 .btn-wp:hover {
@@ -160,7 +183,6 @@ footer nav {
     height: 150px;
     padding: 2rem;
   }
-  
 
   .btn-wp {
     font-size: 16px;
@@ -211,6 +233,17 @@ footer nav {
     width: 32px;
     height: 32px;
   }
+  footer {
+    height: 190px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+
+  .icons-adjust-footer {
+    width: 32px;
+    height: 32px;
+  }
 }
 /*for Laptops and large Devices*/
 @media only screen and (min-width: 1025px) {
@@ -252,7 +285,7 @@ footer nav {
     text-align: center;
     font-size: 16px;
   }
- 
+
   .display-section-ads {
     display: flex;
     flex-flow: row nowrap;
@@ -262,5 +295,20 @@ footer nav {
   }
   .padding-ads {
     padding: 0;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 240px;
+  }
+  footer p {
+    font-size: 17px;
+  }
+
+  .icons-adjust-footer {
+    width: 37px;
+    height: 37px;
   }
 }
