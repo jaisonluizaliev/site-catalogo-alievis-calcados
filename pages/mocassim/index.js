@@ -6,7 +6,7 @@ const Mocassim = () => {
   return (
     <>
       
-      <Row lg={3} xs={1} md={2}>
+      <Row lg={4} xs={1} md={2}>
         <Col>
           <CardWithWab
             src="/mocassim-azul-pagina.jpg"
