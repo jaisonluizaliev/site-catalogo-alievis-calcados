@@ -177,6 +177,24 @@ footer {
   text-align: center;
   font-size: 19px;
 }
+/*fosr x-small devices*/
+@media only screen and (max-width: 350px) {
+  .btn-wp {
+    font-size:13px; 
+    width: 150vw;
+    height:65px;
+    margin: 0;
+    padding: 0;
+    overflow-wrap: normal;
+  }
+  .btn-wp img {
+    padding: 0;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+  }
+}
+
 /*For Tablets*/
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   footer nav {
