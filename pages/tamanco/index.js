@@ -1,6 +1,5 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-//import CardWithWab from '../../components/CardWithWab'
 import CardIndisponible from '../../components/CardIndisponible'
 
 const Tamanco = () => {

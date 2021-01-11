@@ -11,12 +11,27 @@ const Rasteiras = () => {
           <CardWithWab
             src="/rasteira-tyedielilas-pagina.jpg"
             alt="tye-dye-lilas"
-            price="64,90"
+            price="22,94"
+            atSight="68,82"
+            off="58,49"
             titulo="Rasteira Tye Dye Lilas C/ Strass"
             setSize37="ative"
             material="Couro Sintético"
             descrição="Linha Confort"
             link="https://bit.ly/3r1NqCc"
+          />
+        </Col>
+        <Col>
+          <CardWithWab
+            src="/rasteira-azul.jpg"
+            alt="rasteira azul"
+            price="10,61"
+            atSight="31,83"
+            off="27,05"
+            titulo="Rasteira Azul, Semi-brilho"
+            setSize39="ative"
+            material="Napa sintético"
+            descrição="Sandália rasteira feminina na cor azul, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
           />
         </Col>
        

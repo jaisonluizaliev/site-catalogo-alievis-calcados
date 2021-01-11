@@ -10,7 +10,9 @@ const PeepToe = () => {
           <CardWithWab
             src="/peeptoe-vermelho-pagina.jpg"
             alt="tamanco"
-            price="79,90"
+            price="28,25"
+            atSight="84,75"
+            off="72,03"
             titulo="Peep Toe Vermelho"
             setSize36="ative"
             material="Verniz"
@@ -24,7 +26,9 @@ const PeepToe = () => {
           <CardWithWab
             src="/peeptoe-preto-pagina.jpg"
             alt="tamanco"
-            price="79,90"
+            price="26,83"
+            atsight="80,49"
+            off="68,41"
             titulo="Peep Toe Preto"
             setSize34="ative"
             setSize38="ative"

@@ -1,3 +1,5 @@
+/*GLOBAL*/
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -34,11 +36,32 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   color: #06af2a;
 }
 
+.span-card-plotes {
+  font-size: 15px;
+  margin-left: 5px;
+  color: #524324;
+  font-weight: 500;
+}
+
+.span-card-value {
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.span-card-value-off {
+  font-size: 19px;
+  font-weight: 500;
+  font-style: italic;
+  color: #129929;
+}
+
 .price {
-  height: 70px;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .shoesize {
@@ -67,7 +90,22 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   color: #ffffff;
   background-color: #06af2a;
 }
-
+.font-offer {
+  font-size: 2.3rem;
+  background-color: #555151;
+  color:#fff;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.offer-img {
+  background-color: #646363a6;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 .padding-ads {
   padding-bottom: 15px;
 }
@@ -111,7 +149,13 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 
   border-radius: 15px;
 }
-
+.footer-details {
+  background-color: #646363;
+  text-align: center;
+  margin-bottom: 0;
+  color: #fafafa;
+  padding-top: 1.5rem ;
+}
 footer {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -310,6 +354,9 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     height: 150px;
+  }
+  .font-offer {
+    height: 85px;
   }
   .padding-ads {
     padding: 0;

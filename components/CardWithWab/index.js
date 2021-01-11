@@ -11,16 +11,20 @@ const CardWithWab = (props) => {
     <>
       <Card className="mt-2 mb-2">
         <div className="w-100 mx-auto pb-3">
+          <p className="offer-img">15%OFF À VISTA/BOLETO</p>
           <Image
             src={props.src}
             alt={props.alt}
             width={500}
             height={500}
           />
-          <div className="price font-2 mb-2">
-            <p className="font-weight-bold mr-auto ml-2 mb-0">Frete Grátis</p>
-            <p className="mr-2 mb-0 font-italic">Valor</p>
-            <p className="mr-3 mb-0 font-italic">{props.price}</p>
+          <p className="offer-img">ENTREGA GRÁTIS*</p>
+          <div className="display-flex mt-3">
+            <p className="span-card-value-off">CUPOM 15%OFF ${props.off}*</p>
+          </div>
+          <div className="price">
+            <p className="span-card-plotes">À Vista ${props.atSight}</p>
+            <p className="span-card-value">3x ${props.price}</p>
           </div>
         </div>
         <div>
