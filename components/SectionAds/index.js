@@ -16,10 +16,10 @@ const SectionAds = () => {
             <p>Vendas Pelo WhatsApp</p>
           </Nav>
           <Nav className="padding-ads">
-            <a href="https://bit.ly/3hcP3s6" target="blank">
-              <Image src="/icons/delivery-icon-section.png" alt="consulta de frete" width={64} height={64} />
+            <a href="/como-funciona" target="blank">
+              <Image src="/icons/forma-de-pagamento.png" alt="formas pagamento" width={64} height={64} />
             </a>
-            <p>Consulte Nosso Frete</p>
+            <p>Aceitamos Cartões</p>
           </Nav>
           <Nav className="padding-ads">
             <div>
