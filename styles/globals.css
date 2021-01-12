@@ -90,7 +90,8 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   color: #ffffff;
   background-color: #06af2a;
 }
-.font-offer p , .font-offer p strong {
+.font-offer p,
+.font-offer p strong {
   padding: 0;
   margin: 0;
 }
@@ -99,7 +100,7 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   text-align: center;
   padding: 5px 0 5px 0;
   background-color: #555151;
-  color:#fff;
+  color: #fff;
   margin-bottom: 15px;
 }
 
@@ -158,9 +159,15 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 .footer-details {
   background-color: #646363;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0;
   color: #fafafa;
-  padding-top: 1.5rem ;
+  padding-top: 1.5rem;
+}
+
+
+
+.footer-details, .footer-details a {
+  font-size: 11px;
 }
 
 .page-doubts {
@@ -249,9 +256,9 @@ footer {
 /*fosr x-small devices*/
 @media only screen and (max-width: 350px) {
   .btn-wp {
-    font-size:13px; 
+    font-size: 13px;
     width: 150vw;
-    height:65px;
+    height: 65px;
     margin: 0;
     padding: 0;
     overflow-wrap: normal;
@@ -262,7 +269,6 @@ footer {
     width: 20px;
     height: 20px;
   }
-  
 }
 
 /*For Tablets*/
@@ -328,6 +334,10 @@ footer {
     font-size: 16px;
   }
 
+  .footer-details, .footer-details a {
+    font-size: 15px;
+  }
+
   .icons-adjust-footer {
     width: 32px;
     height: 32px;
@@ -338,12 +348,12 @@ footer {
   }
 
   .question {
-  font-size: 17px;
-}
+    font-size: 17px;
+  }
 
-.answer {
-  font-size: 15px;
-}
+  .answer {
+    font-size: 15px;
+  }
 }
 /*for Laptops and large Devices*/
 @media only screen and (min-width: 1025px) {
@@ -406,9 +416,13 @@ footer {
     align-items: center;
     height: 240px;
   }
-  
+
   footer p {
     font-size: 17px;
+  }
+
+  .footer-details, .footer-details a {
+  font-size: 17px;
   }
 
   .icons-adjust-footer {
