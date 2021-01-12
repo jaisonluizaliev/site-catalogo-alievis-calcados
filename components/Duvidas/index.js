@@ -8,24 +8,24 @@ const Questions = (props) => {
   const [open, setOpen] = useState(false)
 
   return (
-    <section>
+    <article>
       <Nav.Link
         onClick={() => setOpen(!open)}
         aria-controls={props.controls}
         aria-expanded={open}
-        className="text-nowrap font-1 p-2"
+        className="question"
       >
         {props.pergunta} ▼
       </Nav.Link>
       <Collapse in={open}>
-        <div id={props.id} className="font-2">
+        <div id={props.id} className="answer">
           <p>{props.resposta}</p>
           <p>{props.resposta1}</p>
           <p>{props.resposta2}</p>
           <p>{props.resposta3}</p>
         </div>
       </Collapse>
-    </section>
+    </article>
   )
 }
 

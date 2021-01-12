@@ -162,6 +162,25 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   color: #fafafa;
   padding-top: 1.5rem ;
 }
+
+.page-doubts {
+  padding: 40px 0 40px 0;
+}
+
+.page-doubts h3 {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.question {
+  font-size: 14px;
+}
+
+.answer {
+  font-size: 13px;
+}
+
 footer {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -317,6 +336,14 @@ footer {
   .font-offer {
     font-size: 22px;
   }
+
+  .question {
+  font-size: 17px;
+}
+
+.answer {
+  font-size: 15px;
+}
 }
 /*for Laptops and large Devices*/
 @media only screen and (min-width: 1025px) {
@@ -387,5 +414,9 @@ footer {
   .icons-adjust-footer {
     width: 37px;
     height: 37px;
+  }
+
+  .question {
+    font-size: 18px;
   }
 }
