@@ -90,13 +90,19 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   color: #ffffff;
   background-color: #06af2a;
 }
+.font-offer p , .font-offer p strong {
+  padding: 0;
+  margin: 0;
+}
 .font-offer {
-  font-size: 2.3rem;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 0 5px 0;
   background-color: #555151;
   color:#fff;
   margin-bottom: 15px;
-  padding: 5px;
 }
+
 .offer-img {
   background-color: #646363a6;
   font-size: 1.3rem;
@@ -237,6 +243,7 @@ footer {
     width: 20px;
     height: 20px;
   }
+  
 }
 
 /*For Tablets*/
@@ -306,6 +313,10 @@ footer {
     width: 32px;
     height: 32px;
   }
+
+  .font-offer {
+    font-size: 22px;
+  }
 }
 /*for Laptops and large Devices*/
 @media only screen and (min-width: 1025px) {
@@ -356,7 +367,7 @@ footer {
     height: 150px;
   }
   .font-offer {
-    height: 85px;
+    font-size: 40px;
   }
   .padding-ads {
     padding: 0;
@@ -368,6 +379,7 @@ footer {
     align-items: center;
     height: 240px;
   }
+  
   footer p {
     font-size: 17px;
   }
