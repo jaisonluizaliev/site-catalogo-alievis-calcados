@@ -57,6 +57,25 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   color: #129929;
 }
 
+.span-card-value-off-1 {
+  display: block;
+  font-size: 19px;
+  font-weight: 500;
+  font-style: italic;
+  color: #f5f5f5;
+  background-color: #FC0318;
+  padding: 10px 7px;
+  margin-bottom: 50px;
+}
+
+.info-off30 {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  
+}
+
 .price {
   display: flex;
   flex-flow: row;
