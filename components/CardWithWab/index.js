@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card'
 import Image from 'next/image';
+import CupomThirty from './Cupom'
 
 
 //const linkWhats = "https://api.whatsapp.com/send?phone=5548988467451&text=Olá%20você%20tem%20este%20calçado %20disponível%20no%20número%20"
@@ -23,11 +24,9 @@ const CardWithWab = (props) => {
             <p className="span-card-value-off">CUPOM 15%OFF ${props.off}*</p>
             
           </div>
-          <div className="display-flex mt-3">
-            <p className="span-card-value-off-1">CUPOM 30%OFF <strong>${props.off1}*</strong> </p>
-          </div>
-          <p className="info-off30">*CUPOM 30%OFF Válido somente hoje 17/01/2021</p>
-          <p className="info-off30">*CUPOM 30%OFF Disponível apenas para entregas no sul da ilha de Florianópolis-SC no pagamento à Vista</p>
+          {/* <CupomThirty
+            off1={props.off1}
+          /> */}
           <div className="price">
             <p className="span-card-plotes">À Vista ${props.atSight}</p>
             <p className="span-card-value">3x ${props.price}</p>
