@@ -12,7 +12,7 @@ const CardWithWab = (props) => {
     <>
       <Card className="mt-2 mb-2">
         <div className="w-100 mx-auto pb-3">
-          <p className="offer-img">15%OFF À VISTA/BOLETO</p>
+          {/* <p className="offer-img">15%OFF À VISTA/BOLETO</p> */}
           <Image
             src={props.src}
             alt={props.alt}
