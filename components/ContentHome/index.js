@@ -16,7 +16,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            src="/sandalia-home.jpg"
+            src="/sandalia-offwhitecobra-pagina.jpg"
             titulo="Sandálias"
             alt="sandalias"
             href="/sandalias"
@@ -40,7 +40,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            src="/peeptoe-preto-pagina.jpg"
+            src="/peeptoe-vermelho-pagina.jpg"
             titulo="PeepToes"
             alt="peep-toe"
             href="/peeptoe"
@@ -48,7 +48,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            src="/sapatilhas-home.jpg"
+            src="/sapatilha-gelo-fend.jpg"
             titulo="Sapatilhas"
             alt="sapatilhas"
             href="/sapatilhas"
