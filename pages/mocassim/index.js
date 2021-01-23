@@ -9,6 +9,7 @@ const Mocassim = () => {
       <Row lg={4} xs={1} md={2}>
         <Col>
           <CardWithWab
+            className="info-30off"
             src="/mocassim-azul-pagina.jpg"
             alt="mocassim azul"
             price="22,79"

@@ -8,7 +8,7 @@ const CarouselComp = () => {
         <Carousel.Item interval={2000}>
           <a href="/sandalias">
             <Image
-              src="/sandalia-home.jpg"
+              src="/images/sandalia-home.jpg"
               alt="sandalia branca"
             />
           </a>
@@ -16,7 +16,7 @@ const CarouselComp = () => {
         <Carousel.Item interval={2000}>
           <a href="/scarpin">
             <Image
-              src="/scarpin-vinho-pagina.jpg"
+              src="/images/scarpin-vinho-pagina.jpg"
               alt="scarpin vinho"
             />
           </a>
@@ -25,7 +25,7 @@ const CarouselComp = () => {
         <Carousel.Item interval={2000}>
           <a href="/sandalias">
             <Image
-              src="/sandalia-marrombege-pagina.jpg"
+              src="/images/sandalia-marrombege-pagina.jpg"
               alt="sandalia marrom com beje"
             />
           </a>
@@ -34,7 +34,7 @@ const CarouselComp = () => {
         <Carousel.Item interval={2000}>
           <a href="/peeptoe">
             <Image
-              src="/peeptoe-preto-pagina.jpg"
+              src="/images/peeptoe-preto-pagina.jpg"
               alt="peeptoe preto"
             />
           </a>
@@ -43,7 +43,7 @@ const CarouselComp = () => {
           <a href="/sapatilhas">
             <img
               className="slide-home" 
-              src="/sapatilha-napa-chocolate.jpg"
+              src="/images/sapatilha-napa-chocolate.jpg"
               alt="sandalia em bloco"
             />
           </a>

@@ -65,7 +65,7 @@ const CardWithWab = (props) => {
           </div>
         </Card.Body>
       </Card>
-
+      
     </>
   )
 }

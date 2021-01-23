@@ -1,5 +1,5 @@
 
-const CupomThirty = ({off1}) => {
+const CupomThirty = ({off1, children}) => {
   var today = new Date();
   var dd = String(today.getDate()).padStart(2, '0');
   var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
@@ -14,6 +14,7 @@ const CupomThirty = ({off1}) => {
       </div>
       <p className="info-off30">*CUPOM 30%OFF Válido somente hoje {today}</p>
       <p className="info-off30">*CUPOM 30%OFF Disponível apenas para entregas no sul da ilha de Florianópolis-SC no pagamento à Vista</p>
+      
       </>
   )
 }

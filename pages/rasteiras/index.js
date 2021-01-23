@@ -9,7 +9,7 @@ const Rasteiras = () => {
         
         <Col>
           <CardWithWab
-            src="/rasteira-tyedielilas-pagina.jpg"
+            src="/images/rasteira-tyedielilas-pagina.jpg"
             alt="tye-dye-lilas"
             price="22,94"
             atSight="68,82"
@@ -24,7 +24,7 @@ const Rasteiras = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/rasteira-azul.jpg"
+            src="/images/rasteira-azul.jpg"
             alt="rasteira azul"
             price="10,61"
             atSight="31,83"

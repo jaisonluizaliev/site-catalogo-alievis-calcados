@@ -9,7 +9,7 @@ const Scarpin = () => {
       <Row lg={4} xs={1} md={2}>
         <Col>
           <CardWithWab
-            src="/scarpin-home.jpg"
+            src="/images/scarpin-home.jpg"
             alt="scarpin-com-fita"
             price="35,32"
             off="90,06"
@@ -25,7 +25,7 @@ const Scarpin = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/scarpin-preto-pagina.jpg"
+            src="/images/scarpin-preto-pagina.jpg"
             alt="scarpin-salto-fino"
             price="31,78"
             off="81,03"
@@ -41,7 +41,7 @@ const Scarpin = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/scarpin-preto-grosso-pagina.jpeg"
+            src="/images/scarpin-preto-grosso-pagina.jpeg"
             alt="scarpin-preto-salto-grosso"
             price="31,43"
             atSight="94,29"
@@ -56,7 +56,7 @@ const Scarpin = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/scarpin-vermelho-pagina.jpg"
+            src="/images/scarpin-vermelho-pagina.jpg"
             alt="scarpin-vermelho-salto-fino"
             price="32,49"
             atSight="97,47"
@@ -72,7 +72,7 @@ const Scarpin = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/scarpin-nude-pagina.jpg"
+            src="/images/scarpin-nude-pagina.jpg"
             alt="scarpin-nude-salto-fino"
             price="31,78"
             atSight="95,34"
@@ -89,14 +89,14 @@ const Scarpin = () => {
         </Col>
         <Col>
           <CardIndisponible
-            src="/scarpin-nude-grosso-pagina.jpg"
+            src="/images/scarpin-nude-grosso-pagina.jpg"
             alt="scarpin-nude-salto-grosso"
             link="https://bit.ly/38ybGTN"
           />
         </Col>
         <Col>
           <CardWithWab
-            src="/scarpin-vinho-pagina.jpg"
+            src="/images/scarpin-vinho-pagina.jpg"
             alt="scarpin-vinho-salto-fino"
             price="30,05"
             atSight="90,15"

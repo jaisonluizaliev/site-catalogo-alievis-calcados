@@ -8,7 +8,7 @@ const PeepToe = () => {
       <Row lg={4} xs={1} md={2}>
         <Col>
           <CardWithWab
-            src="/peeptoe-vermelho-pagina.jpg"
+            src="/images/peeptoe-vermelho-pagina.jpg"
             alt="tamanco"
             price="28,25"
             atSight="84,75"
@@ -25,7 +25,7 @@ const PeepToe = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/peeptoe-preto-pagina.jpg"
+            src="/images/peeptoe-preto-pagina.jpg"
             alt="tamanco"
             price="26,83"
             atsight="80,49"

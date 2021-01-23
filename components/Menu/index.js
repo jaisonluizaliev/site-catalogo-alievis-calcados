@@ -13,7 +13,7 @@ const Menu = () => {
         expand="lg"
       >
         <Navbar.Brand href="/">
-          <Image src="/logo.png" alt="logo" width={133} height={70} />
+          <Image src="/images/logo.png" alt="logo" width={133} height={70} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

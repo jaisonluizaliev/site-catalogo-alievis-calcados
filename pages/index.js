@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <CarouselComp/>
-      <OfferSection/>
+      {/* <OfferSection/> */}
       <SectionAds/>
       <ContentHome/>
     </main>

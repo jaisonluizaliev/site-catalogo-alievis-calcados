@@ -8,7 +8,7 @@ const Sapatilhas = () => {
       <Row lg={4} xs={1} md={2}>
         <Col>
           <CardWithWab
-            src="/sapatilhas-home.jpg"
+            src="/images/sapatilhas-home.jpg"
             alt="sapatilha nude"
             price="21,18"
             atSight="63,54"
@@ -24,7 +24,7 @@ const Sapatilhas = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/sapatilha-gelo-fend.jpg"
+            src="/images/sapatilha-gelo-fend.jpg"
             alt="sapatilha Gelo Fend"
             price="21,18"
             atSight="63,54"
@@ -41,7 +41,7 @@ const Sapatilhas = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/sapatilha-napa-chocolate.jpg"
+            src="/images/sapatilha-napa-chocolate.jpg"
             alt="sapatilha chocolate"
             price="21,18"
             atSight="63,54"

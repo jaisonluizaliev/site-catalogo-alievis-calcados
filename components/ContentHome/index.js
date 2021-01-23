@@ -8,7 +8,7 @@ const ContentHome = () => {
       <Row lg={3} xs={1} md={2}>
         <Col>
           <Cards
-            src="/scarpin-vermelho-pagina.jpg"
+            src="/images/scarpin-vermelho-pagina.jpg"
             titulo="Scarpins"
             alt="scarpin"
             href="/scarpin"
@@ -16,7 +16,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            src="/sandalia-offwhitecobra-pagina.jpg"
+            src="/images/sandalia-offwhitecobra-pagina.jpg"
             titulo="Sandálias"
             alt="sandalias"
             href="/sandalias"
@@ -24,7 +24,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            src="/tamanco-home.jpg"
+            src="/images/tamanco-home.jpg"
             titulo="Tamancos"
             alt="tamanco"
             href="/tamanco"
@@ -32,7 +32,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            src="/rasteira-tyedielilas-pagina.jpg"
+            src="/images/rasteira-tyedielilas-pagina.jpg"
             titulo="Rasteiras"
             alt="rasteiras"
             href="/rasteiras"
@@ -40,7 +40,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            src="/peeptoe-vermelho-pagina.jpg"
+            src="/images/peeptoe-vermelho-pagina.jpg"
             titulo="PeepToes"
             alt="peep-toe"
             href="/peeptoe"
@@ -48,7 +48,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            src="/sapatilha-gelo-fend.jpg"
+            src="/images/sapatilha-gelo-fend.jpg"
             titulo="Sapatilhas"
             alt="sapatilhas"
             href="/sapatilhas"
@@ -56,7 +56,7 @@ const ContentHome = () => {
         </Col>
         <Col>
           <Cards
-            src="/mocassim-azul-pagina.jpg"
+            src="/images/mocassim-azul-pagina.jpg"
             titulo="Mocassins"
             alt="mocassim"
             href="/mocassim"

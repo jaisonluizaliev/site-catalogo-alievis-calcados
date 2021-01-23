@@ -8,7 +8,7 @@ const Sandalias = () => {
       <Row lg={4} xs={1} md={2}>
         <Col>
           <CardWithWab
-            src="/sandalia-home.jpg"
+            src="/images/sandalia-home.jpg"
             alt="sandalia-branca"
             price="37,44"
             atSight="112,32"
@@ -23,7 +23,7 @@ const Sandalias = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/sandalia-bloco-home.jpg"
+            src="/images/sandalia-bloco-home.jpg"
             alt="sandalia-branca"
             price="36,02"
             atSight="108,06"
@@ -38,7 +38,7 @@ const Sandalias = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/sandalia-nuderose-pagina.jpg"
+            src="/images/sandalia-nuderose-pagina.jpg"
             alt="sandalia-nude-rose"
             price="35,32"
             atSight="105,96"
@@ -53,7 +53,7 @@ const Sandalias = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/sandalia-marrombege-pagina.jpg"
+            src="/images/sandalia-marrombege-pagina.jpg"
             alt="sandalia-marrom-com-bege"
             price="36,73"
             atSight="110,19"
@@ -70,7 +70,7 @@ const Sandalias = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/sandalia-offwhitecobra-pagina.jpg"
+            src="/images/sandalia-offwhitecobra-pagina.jpg"
             alt="sandalia-offwhite-cobra"
             price="42,39"
             atSight="127,17"
@@ -85,7 +85,7 @@ const Sandalias = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/sandalia-preta-pagina.jpg"
+            src="/images/sandalia-preta-pagina.jpg"
             alt="sandalia-preta"
             price="31,78"
             atSight="95,34"
@@ -101,7 +101,7 @@ const Sandalias = () => {
         </Col>
         <Col>
           <CardWithWab
-            src="/sandalia-nude-pagina.jpg"
+            src="/images/sandalia-nude-pagina.jpg"
             alt="sandalia-nude"
             price="31,78"
             atSight="95,34"

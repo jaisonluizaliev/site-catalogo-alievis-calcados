@@ -27,7 +27,7 @@ const CardIndisponible = (props) => {
           Faça a Sua Encomenda
         </Card.Title>
         <Card.Body>
-          <p>
+          <p className="info-off30">
             Encomendas podem levar até 15 dias úteis para a fabricação e entrega, fazendo-a voce estará ciente do tempo de entrega 
 
           </p>
