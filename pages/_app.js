@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as gtag from '../lib/gtag'
 import {GlobalStyle} from '../styles/Globals'
+import {Container } from '../components/Container'
 import Menu from '../components/Menu'
 
 
@@ -36,13 +37,15 @@ function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <GlobalStyle />
+      <Container>
+        <GlobalStyle />
         <header>
-          <Menu/>
+          <Menu />
         </header>
         <main >
           <Component {...pageProps} />
         </main>
+      </Container>
     </>
   );
 }

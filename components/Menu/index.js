@@ -6,19 +6,26 @@ import {useState} from 'react'
 const Nav = styled.nav`
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
   
-  .logo {
-    margin-left: 10px;
+  height:95px;
+  background-color:#fafafa;
+     
+  @media (min-width:0) and (max-width:999px) {
+    .logo {
+      position:absolute;
+      top:10px;
+      left:18px;
+    }
   }
-
 
   @media (min-width: 1000px) {
     display:flex;
     justify-content:space-between;
     align-items:center;
     font-family:sans-serif;
-    background-color:#FAFAFA;
+    
   .logo {
     margin-left:18px;
+    
   }
 
   ul {
@@ -56,18 +63,15 @@ const Nav = styled.nav`
 
 const Menu = () => {
   const [] = useState()
-
-
-
+  
   return (
-    <>
-      <Nav>
+    <Nav>
         <div>
           <a href="/">
             <img className="logo" src="/images/logo.png" alt="Logo" width={135} height={75} />
           </a>
         </div>
-        <ul>
+        <ul className="submenu">
           <li>
             Calçados<img src="/icons/seta-suspensa.svg" alt="seta suspensa" width={12} height={12}/>
           </li>
@@ -78,7 +82,7 @@ const Menu = () => {
             <a href="">Duvidas</a>
           </li>
         </ul>
-        <div>
+        <div className="icons">
           <a href="">
             <img src="/icons/facebook-icon.png" alt="facebook icone" width={33} height={33} />
           </a>
@@ -91,7 +95,7 @@ const Menu = () => {
         </div>
         <Hamburguer />
       </Nav>        
-    </>
+    
   )
 }
 
