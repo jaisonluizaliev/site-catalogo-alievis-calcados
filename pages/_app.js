@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as gtag from '../lib/gtag'
 import {GlobalStyle} from '../styles/Globals'
+import Menu from '../components/Menu'
 
 
 function MyApp({ Component, pageProps }) {
@@ -36,9 +37,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <GlobalStyle />
-      
         <header>
-          <p>hello</p>
+          <Menu/>
         </header>
         <main >
           <Component {...pageProps} />

@@ -50,9 +50,6 @@ class MyDocument extends Document {
           />
            
           <link rel="icon" href="/favicon/favicon.ico" />
-          <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800&display=swap" rel="stylesheet"
-          />
-          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"/>
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"/>
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"/>
           {this.props.styleTags}
