@@ -1,0 +1,74 @@
+https://dev.to/aprietof/nextjs--styled-components-the-really-simple-guide----101c
+
+
+another option
+
+https://segredo.dev/next-js-styled-components/
+
+
+Oq aprendi até o momento sobre styled-components
+
+importar no projeto
+
+import styled from "styled-components"
+
+use
+
+const ComponentName = styled.tag`
+  css - libre sintax
+`;
+
+css aninhado && class use
+
+const ComponentName = styled.tag`
+  css - libre sintax
+  Father element
+  
+  .classname {
+
+  }
+
+  anotherelement{
+    children
+  }
+`;
+
+export component
+
+export const ComponentName = styled.tag`
+  css - libre sintax
+  Father element
+  
+  .classname {
+
+  }
+
+  anotherelement{
+    children
+  }
+`;
+
+import {this component} from  this
+
+
+export const ComponentName = styled.tag`
+  css - libre sintax
+  Father element
+  /*props use*/
+
+  font-size: ${props => props.big ?
+    "38px" : "25px"};
+
+    //posso passar duas propriedades css para meus arquivos
+
+  .classname {
+
+  }
+
+  anotherelement{
+    children
+  }
+`;
+
+
+
