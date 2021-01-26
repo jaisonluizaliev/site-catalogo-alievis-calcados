@@ -1,12 +1,9 @@
 import Head from 'next/head'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/globals.css'
-import Container from 'react-bootstrap/Container'
-import Menu from '../components/Menu/index';
-import Footer from '../components/Footer/index'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as gtag from '../lib/gtag'
+import {GlobalStyle} from '../styles/Globals'
 
 
 function MyApp({ Component, pageProps }) {
@@ -38,16 +35,14 @@ function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <Container fluid>
+      <GlobalStyle />
+      
+        <header>
+          <p>hello</p>
+        </header>
         <main >
-          <header>
-            <Menu />
-          </header>
           <Component {...pageProps} />
         </main>
-        <Footer />
-      </Container>
-      
     </>
   );
 }
