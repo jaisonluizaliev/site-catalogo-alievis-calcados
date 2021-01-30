@@ -6,11 +6,12 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     outline: 0;
+    list-style:none;
   }
   a, a:hover {
       text-decoration: none;
       color: inherit;
   }
-  
+
 
 `

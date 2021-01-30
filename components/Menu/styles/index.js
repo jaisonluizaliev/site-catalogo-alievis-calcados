@@ -1,28 +1,27 @@
-import styled from "styled-components"
-import {useState} from 'react'
+import styled from 'styled-components'
 
-const Burguer = styled.div`
+export const BurguerStyle = styled.div`
   display:none;
   @media (max-width:999px) {
     width:2rem;
     height:2rem;
-    position:absolute;
-    top:21px;
-    right:18px;
     display:flex;
     justify-content:space-around;
     flex-flow:column nowrap;
+    
+    
+    
 
     div {
       width:2rem;
       height:0.25rem;
-      background-color:${({open}) => open ? '#ccc' : '#333'};
+      background-color:${({ open }) => open ? '#ccc' : '#333'};
       border-radius:10px;
       transform-origin:1px;
       transition: all 0.2s linear;
 
       &:nth-child(1) {
-        transform: ${({open}) => open ? 'rotate(45deg)': 'rotate(0)'}; 
+        transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'}; 
       }
        &:nth-child(2) {
         transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'} ;
@@ -35,20 +34,12 @@ const Burguer = styled.div`
     }
   }
 
-`;
+`
 
-const Hamburguer = () => {
-  const [open, setOpen] = useState(false)
+export const Logo = styled.div`
 
-  return (
-    <Burguer open={open} onClick={() => {setOpen(!open)}}>
-      <div/>
-      <div/>
-      <div/>
-    </Burguer>
-  )
-}
+`
 
-export default Hamburguer
-
-
+export const MenuStyle = styled.nav`
+  display:flex;
+`

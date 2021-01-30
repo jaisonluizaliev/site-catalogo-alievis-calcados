@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import '../styles/globals.css'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as gtag from '../lib/gtag'
 import {GlobalStyle} from '../styles/Globals'
 import {Container } from '../components/Container'
 import Menu from '../components/Menu'
+
 
 
 function MyApp({ Component, pageProps }) {
@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }) {
       <Container>
         <GlobalStyle />
         <header>
-          <Menu />
+          <Menu/>
         </header>
         <main >
           <Component {...pageProps} />
