@@ -2,11 +2,7 @@ import Head from 'next/head'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as gtag from '../lib/gtag'
-import {GlobalStyle} from '../styles/Globals'
-import {Container } from '../components/Container'
-import Menu from '../components/Menu'
-
-
+import {GlobalStyle, Container} from '../styles/styles'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
@@ -38,9 +34,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <Container>
-        <GlobalStyle />
+      <GlobalStyle/>
         <header>
-          <Menu/>
         </header>
         <main >
           <Component {...pageProps} />
