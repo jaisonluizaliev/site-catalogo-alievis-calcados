@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Alievi's Calçados | Voce é quem Decide</title>
+        <title>Alievi's Calçados | Quem decide é Você</title>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

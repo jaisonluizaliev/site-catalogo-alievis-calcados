@@ -63,7 +63,6 @@ const Scarpin = () => {
             off1="69,90"
             titulo="Scarpin Vermelho Salto Fino"
             setSize34="ative"
-            setSize37="ative"
             material="Verniz"
             descrição="Salto linha Premium Confort, 8cm"
             link="https://bit.ly/34ddSz2"
