@@ -1,0 +1,7 @@
+scopo
+
+styles all export components in styles
+
+all property css receive props with function and passe to atribute from father
+
+herança de component cop recebe styled(comp) como parametro

@@ -61,7 +61,7 @@ const Scarpin = () => {
             price="32,49"
             atSight="97,47"
             off="82,84"
-            off1="68,22"
+            off1="69,90"
             titulo="Scarpin Vermelho Salto Fino"
             setSize34="ative"
             setSize37="ative"
