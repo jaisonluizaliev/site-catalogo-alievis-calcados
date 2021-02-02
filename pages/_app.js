@@ -2,7 +2,9 @@ import Head from 'next/head'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as gtag from '../lib/gtag'
-import {GlobalStyle, Container} from '../styles/styles'
+import {GlobalStyle, Container} from '../styles'
+import Menu from '../Components/Menu'
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
@@ -20,7 +22,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Alievi's Calçados | Voce é quem Decide</title>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,11 +32,16 @@ function MyApp({ Component, pageProps }) {
         <meta name="generator" content="Nextjs,react" />
         <meta name="application-name" content="Site Alievi Calçados" />
         <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#EF5A66" />
+        <link rel="preload" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Playfair+Display+SC:wght@400;700;900&family=Roboto:wght@100&display=swap" rel="stylesheet" />
+        <link rel="icon" href="/favicon/favicon.ico" />
+        <title>Alievi's Calçados | Voce é quem Decide</title>
       </Head>
       <Container>
       <GlobalStyle/>
         <header>
+          <Menu/>
         </header>
         <main >
           <Component {...pageProps} />
