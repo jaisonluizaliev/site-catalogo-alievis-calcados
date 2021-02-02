@@ -8,16 +8,17 @@ const HowToWork = () => {
         <Questions
           controls="q0"
           id="q0"
-          pergunta="- COMO FUNCIONA A ENTREGA GRÁTIS"
+          pergunta="- COMO FUNCIONA A ENTREGA GRÁTIS ?"
           resposta="- Totalmente *GRATUITO* para entregas de até 60km"
           resposta1="- Entregamos Presencialmente e estamos no sul da ilha de Florinópolis-SC"
           resposta2="- ENTREGAS acima de 60km, é acrescido os quiilometros extras"
         />
         <Questions
           controls="q01"
-          id="01"
-          pergunta="- COMO FUNCIONA O CUPOM 15%OFF"
-          resposta="Vendemos por WhatsApp, o cupom é aplicado automaticamente para compras efetuadas e pagas À vista ou Débito ou Transferencia/deposito('somente presencial')"
+          id="q01"
+          pergunta="- ONDE FICA A LOJA ?"
+          resposta="- LOJA ONLINE SEM LOCAL FÍSICO"
+          resposta1="- Estamos no Sul da ilha de Florinópolis-SC"
         />
         <Questions
           controls="q1"

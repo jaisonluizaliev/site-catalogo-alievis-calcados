@@ -10,8 +10,8 @@ const Sapatilhas = () => {
           <CardWithWab
             src="/sapatilhas-home.jpg"
             alt="sapatilha nude"
-            price="21,18"
-            atSight="63,54"
+            price="17,67"
+            atSight="49,90"
             off="54,00"
             off1="44,47"
             titulo="Sapatilha Croco Nude"
@@ -26,8 +26,8 @@ const Sapatilhas = () => {
           <CardWithWab
             src="/sapatilha-gelo-fend.jpg"
             alt="sapatilha Gelo Fend"
-            price="21,18"
-            atSight="63,54"
+            price="17,67"
+            atSight="49,90"
             off="54,00"
             off1="44,47"
             titulo="Sapatilha Fend Gelo"
@@ -43,8 +43,8 @@ const Sapatilhas = () => {
           <CardWithWab
             src="/sapatilha-napa-chocolate.jpg"
             alt="sapatilha chocolate"
-            price="21,18"
-            atSight="63,54"
+            price="17,67"
+            atSight="49,90"
             off="54,00"
             off1="44,47"
             titulo="Sapatilha Croco Chocolate"
