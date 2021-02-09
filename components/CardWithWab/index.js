@@ -41,6 +41,7 @@ const CardWithWab = (props) => {
             <div id={props.setSize37} className="shoesize-child-inative">37</div>
             <div id={props.setSize38} className="shoesize-child-inative">38</div>
             <div id={props.setSize39} className="shoesize-child-inative">39</div>
+            <div id={props.setSize40} className="shoesize-child-inative">40</div>
           </div>
         </div>
         <Card.Title className="text-center h5 font-weight-normal font-1">

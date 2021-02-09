@@ -20,7 +20,7 @@ const CardIndisponible = (props) => {
             <div className="shoesize-child-inative">36</div>
             <div className="shoesize-child-inative">37</div>
             <div className="shoesize-child-inative">38</div>
-            <div className="shoesize-child-inative">39</div>
+            <div className="shoesize-child-inative">40</div>
           </div>
         </div>
         <Card.Title className="text-center h5 font-weight-normal font-1">

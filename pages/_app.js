@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import '../styles/globals.css'
 import Container from 'react-bootstrap/Container'
-import Menu from '../components/Menu/index';
+import Menu from '../components/Menu/index'
 import Footer from '../components/Footer/index'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'

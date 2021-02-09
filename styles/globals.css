@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  outline:0 ; 
 }
 
 a,
@@ -85,24 +86,26 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
 
 .shoesize {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   height: 50px;
+  
   margin-bottom: 1.5rem;
   background-color: #fafafa;
 }
 
 .shoesize-child-inative {
-  width: 37px;
-  height: 29px;
+  width: 32px;
+  height: 28px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 16px;
   color: #ffffff;
 
-  background-color: #fc0318;
+  background-color: #c55e67;
   margin: 0;
+  padding:0; 
 }
 
 #ative {

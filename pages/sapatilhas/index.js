@@ -54,6 +54,21 @@ const Sapatilhas = () => {
             link="https://bit.ly/2WDolPK"
           />
         </Col>
+        <Col>
+          <CardWithWab
+            src="/rasteira-salome.jpg"
+            alt="rasteira salome"
+            price="17,67"
+            atSight="49,90"
+            off="27,05"
+            off1="22,28"
+            titulo="Sapatilha Salome"
+            setSize40="ative"
+            material="verniz sintético"
+            descrição="Sapatilha salome na cor bic, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
+            link="https://bit.ly/3a4afyA"
+          />
+        </Col>
       </Row>
     </main>
   )
