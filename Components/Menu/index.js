@@ -14,16 +14,18 @@ export default function Menu() {
           <img src="/images/logo.png" alt="Logo Site" width={130} height={69} />
         </a>
       </Logo>
-      <DropDown>
+      <DropDown open={open} onClick={() => { setOpen(!open) }}>
         <ul>
           <li className="child-1">
             Calçados<img src="icons/seta-suspensa.svg" alt="Setinha" width={13} height={12} />
             <ul >
-              <li>skfjshfjs</li>
-              <li>skfjshfjs</li>
-              <li>skfjshfjs</li>
-              <li>skfjshfjs</li>
-              <li>skfjshfjs</li>
+              <li>Mocassim</li>
+              <li>PeepToe</li>
+              <li>Rasteirinhas</li>
+              <li>Scarpins</li>
+              <li>Sandálias</li>
+              <li>Sapatilhas</li>
+              <li>Tamancos</li>
             </ul>
           </li>
           <li>
@@ -33,7 +35,7 @@ export default function Menu() {
             <a href="">Duvidas</a>
           </li>
         </ul>
-        <ul>
+        <ul className="icons">
           <li>
             <a href="">
               <img src="/icons/facebook-icon.png" alt="Icone Facebook" width={33} height={33} />

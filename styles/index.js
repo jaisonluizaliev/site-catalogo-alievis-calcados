@@ -123,13 +123,34 @@ export const DropDown = styled.div`
   font-family:'Playfair Display', serif;
   ${media.smAndMd}
   {
-    display:none;
-    font-size:15px;
+    margin:auto;
+    width:100vw;
+    font-size:18px;
+    position:absolute;
+    top:80px;
+    display: ${({ open }) => open ? 'flex' : 'none'};
+    flex-flow:column nowrap;
+    ul {
+      margin:15px 10px;
+      
+    }
+
+    .icons {
+      display:flex;
+      justify-content:space-evenly;
+      li {
+        margin-top:15px ;
+      }
+    }
+    ul li ul {
+      display:none;
+    }
+    
   }
   
   ${media.laptops}
   {
-    width:70%;
+    width:50%;
     display:flex;
     justify-content:space-between;
 
@@ -147,16 +168,23 @@ export const DropDown = styled.div`
         color:#EF5A66;
       }
       .child-1{
-        border:5px solid #EF5A66;
-        
+        position:absolute;
+        top:28px;
+        left:202px;
         ul {
-          border:2px solid #EF5A;
+          display:flex; 
+          flex-flow:column nowrap;
+          position:relative;
+          top:6px;
+          opacity:0;
           li {
-            border:1px solid #EF6;
-
+            margin:5px 15px;
+            font-size:16px;
           }
         }
       }
+
+      
      
     }
   }
