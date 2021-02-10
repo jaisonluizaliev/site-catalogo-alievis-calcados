@@ -96,10 +96,10 @@ const Rasteiras = () => {
             atSight="39,90"
             off="27,05"
             off1="22,28"
-            titulo="Rasteira Azul, Semi-brilho"
+            titulo="Rasteira Verniz Preta"
             setSize37="ative"
             material="Verniz sintético"
-            descrição="Sandália rasteira feminina em material verniz sintético na cor preto, forro na cor caramelo, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
+            descrição="Sandália rasteira feminina na cor preto, forro na cor caramelo, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
             link="https://bit.ly/37gooXR"
           />
         </Col>
