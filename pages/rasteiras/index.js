@@ -50,7 +50,7 @@ const Rasteiras = () => {
             setSize40="ative"
             material="Napa sintético"
             descrição="Sandália rasteira feminina na cor tyeDie, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
-            link="https://bit.ly/36YdOV4"
+            link="https://bit.ly/3rDZrND"
 
           />
         </Col>
@@ -67,7 +67,7 @@ const Rasteiras = () => {
             setSize35="ative"
             material="Napa sintético"
             descrição="Sandália rasteira feminina na cor capuccino, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
-            link="https://bit.ly/3jwWmfx"
+            link="https://bit.ly/3rzTxNx"
           />
         </Col>
        
@@ -82,9 +82,25 @@ const Rasteiras = () => {
             off1="22,28"
             titulo="Rasteira Azul, Semi-brilho"
             setSize39="ative"
-            material="Napa sintético"
+            material="Verniz sintético"
             descrição="Sandália rasteira feminina na cor azul, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
-            link="https://bit.ly/3jxhSR8"
+            link="https://bit.ly/3jBnslF"
+          />
+        </Col>
+
+        <Col>
+          <CardWithWab
+            src="/rasteira-preta-verniz.jpg"
+            alt="rasteira azul"
+            price="14,11"
+            atSight="39,90"
+            off="27,05"
+            off1="22,28"
+            titulo="Rasteira Azul, Semi-brilho"
+            setSize37="ative"
+            material="Verniz sintético"
+            descrição="Sandália rasteira feminina em material verniz sintético na cor preto, forro na cor caramelo, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
+            link="https://bit.ly/37gooXR"
           />
         </Col>
         
@@ -116,7 +132,7 @@ const Rasteiras = () => {
             setSize37="ative"
             material="Napa sintético"
             descrição="Sandália rasteira feminina na cor azul, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
-            link="https://bit.ly/2Neiy1D"
+            link="https://bit.ly/3aS7Ciu"
 
           />
         </Col>

@@ -66,7 +66,7 @@ const Sapatilhas = () => {
             setSize40="ative"
             material="verniz sintético"
             descrição="Sapatilha salome na cor bic, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
-            link="https://bit.ly/3a4afyA"
+            link="https://bit.ly/36TRFY3"
           />
         </Col>
       </Row>
