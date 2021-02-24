@@ -9,9 +9,9 @@ const HowToWork = () => {
           controls="q0"
           id="q0"
           pergunta="- COMO FUNCIONA A ENTREGA GRÁTIS ?"
-          resposta="- Totalmente *GRATUITO* para entregas de até 60km"
+          resposta="- Totalmente *GRATUITO* para entregas de até 40km, para valores acima de 69,90"
           resposta1="- Entregamos Presencialmente e estamos no sul da ilha de Florinópolis-SC"
-          resposta2="- ENTREGAS acima de 60km, é acrescido os quiilometros extras"
+          resposta2="- ENTREGAS acima de 40km, é acrescido os quiilometros extras"
         />
         <Questions
           controls="q01"

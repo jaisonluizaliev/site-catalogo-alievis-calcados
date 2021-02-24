@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer-details"> <a  href="/como-funciona">**CONSULTE NOSSAS CONDIÇÕES DE FRETE/ENTREGA AQUI</a> </div>
-      <p className="footer-details">**15%OFF VÁLIDO SOMENTE DINHEIRO OU BOLETO À VISTA</p>
+      {/* <p className="footer-details">**15%OFF VÁLIDO SOMENTE DINHEIRO OU BOLETO À VISTA</p> */}
       <footer>
         <FooterItem
           src="/icons/facebook-footer-icon.png"
