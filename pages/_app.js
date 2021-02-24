@@ -37,6 +37,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="application-name" content="Site Alievi Calçados" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        {/* tag ROBOTS = INDEX */}
+        <meta name="robots" content="index, nofollow" />
       </Head>
       <Container fluid>
         <main >
