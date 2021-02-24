@@ -1,6 +1,7 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import CardWithWab from '../../components/CardWithWab'
+import CardIndisponible from '../../components/CardIndisponible'
 
 const Rasteiras = () => {
   return (
@@ -10,8 +11,8 @@ const Rasteiras = () => {
           <CardWithWab
             src="/rasteira-tres-laco-verde-agua.jpg"
             alt="rasteira super laço"
-            price="14,11"
-            atSight="39,90"
+            price="10,57"
+            atSight="29,90"
             off="27,05"
             off1="22,28"
             titulo="Rasteira 3 laços Verde Água"
@@ -27,8 +28,8 @@ const Rasteiras = () => {
           <CardWithWab
             src="/rasteira-tres-laco-laranja.jpg"
             alt="rasteira super laço"
-            price="14,11"
-            atSight="39,90"
+            price="10,57"
+            atSight="29,90"
             off="27,05"
             off1="22,28"
             titulo="Rasteira 3 laços Laranja"
@@ -42,8 +43,8 @@ const Rasteiras = () => {
           <CardWithWab
             src="/rasteira-tres-laco-tyedie.jpg"
             alt="rasteira tres laços tie dye"
-            price="14,11"
-            atSight="39,90"
+            price="10,57"
+            atSight="29,90"
             off="27,05"
             off1="22,28"
             titulo="Rasteira 3 laços Tie Dye"
@@ -59,8 +60,8 @@ const Rasteiras = () => {
           <CardWithWab
             src="/rasteira-tres-laco-bege.jpg"
             alt="rasteira super laço"
-            price="14,11"
-            atSight="39,90"
+            price="10,57"
+            atSight="29,90"
             off="27,05"
             off1="22,28"
             titulo="Rasteira 3 laços Cappucino"
@@ -76,11 +77,12 @@ const Rasteiras = () => {
           <CardWithWab
             src="/rasteira-azul.jpg"
             alt="rasteira azul"
-            price="14,11"
-            atSight="39,90"
+            price="10,57"
+            atSight="29,90"
             off="27,05"
             off1="22,28"
-            titulo="Rasteira Azul, Semi-brilho"
+            titu10="Rasteira Azul, Semi-brilho"
+            setSiz236="ative"
             setSize39="ative"
             material="Verniz sintético"
             descrição="Sandália rasteira feminina na cor azul, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
@@ -92,8 +94,8 @@ const Rasteiras = () => {
           <CardWithWab
             src="/rasteira-preta-verniz.jpg"
             alt="rasteira azul"
-            price="14,11"
-            atSight="39,90"
+            price="10,,57"
+            atSight="29,90"
             off="27,05"
             off1="22,28"
             titulo="Rasteira Verniz Preta"
@@ -105,31 +107,31 @@ const Rasteiras = () => {
         </Col>
         
         <Col>
-          <CardWithWab
+          <CardIndisponible
             src="/rasteira-tyedielilas-pagina.jpg"
             alt="tye-dye-lilas"
-            price="22,94"
-            atSight="59,90"
-            off="58,49"
-            off1="48,17"
+            // price="22,94"
+            // atSight="59,90"
+            // off="58,49"
+            // off1="48,17"
             titulo="Rasteira Tye Dye Lilas C/ Strass"
-            setSize37="ative"
+            // setSize37="ative"
             material="Couro Sintético"
             descrição="Linha Confort"
             link="https://bit.ly/3r1NqCc"
           />
         </Col>
         <Col>
-          <CardWithWab
+          <CardIndisponible
             src="/rasteira-super-laco.jpg"
             alt="rasteira super laço"
-            price="17,64"
-            atSight="49,90"
-            off="27,05"
-            off1="22,28"
+            // price="17,64"
+            // atSight="49,90"
+            // off="27,05"
+            // off1="22,28"
             titulo="Rasteira Super Laço"
-            setSize35="ative"
-            setSize37="ative"
+            // setSize35="ative"
+            // setSize37="ative"
             material="Napa sintético"
             descrição="Sandália rasteira feminina na cor azul, taloneira na cor caramelo e sola emborrachada na cor natural com saltinho de 1cm."
             link="https://bit.ly/3aS7Ciu"

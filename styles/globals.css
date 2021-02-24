@@ -124,6 +124,11 @@ font-family: 'Playfair Display', serif; - 400 - 500 - 800 */
   background-color: #555151;
   color: #fff;
   margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.font-offer span {
+  color:#ff0015;
 }
 
 .offer-img {
